@@ -25,14 +25,21 @@ WAF.onAfterInit = function onAfterInit() {// @lock
  deptArray = [];
  pririotyArray = [];
  locationArray = [];
+ function validateEmail(emailToValidate) {
+	var pattern= new RegExp("^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$");// email matching regex
+	return pattern.test(emailToValidate);
+};
+function validatePhone(phoneToValidate) {
+	var strippedPhoneNumber = phoneToValidate.replace(new RegExp("[\s()+\-\.]|ext","gi"), '');// get rid of () + - . ext in number
+	var pattern = new RegExp("^[0-9]{7,14}$");//match 7-14 digits
+	return pattern.test(strippedPhoneNumber);
+}
 // eventHandlers// @lock
 
 	textField10.blur = function textField10_blur (event)// @startlock
 	{// @endlock
-		var phoneToValidate = $$("textField10").getValue().replace(new RegExp("[\s()+\-\.]|ext","gi"), '');// get rid of () + - . ext in number
-		var pattern = new RegExp("^[0-9]{7,14}$");//match 7-14 digits
-		if(!pattern.test(phoneToValidate)) {
-			$("#phoneFaxValidationErrorDiv").html("Please input a valid phone or fax number");
+		if(!validatePhone( $$("textField10").getValue())) {
+			$("#phoneFaxValidationErrorDiv").html("Please input a valid phone or fax");
 			$("#profileSaveButton").attr("disabled", true);
 		}
 		else {
@@ -44,8 +51,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	textField12.blur = function textField12_blur (event)// @startlock
 	{// @endlock
 		var emailToValidate = $$("textField12").getValue();
-		var pattern= new RegExp("^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$");// email matching regex
-		if(!pattern.test(emailToValidate)) {
+		if(!validateEmail(emailToValidate)) {
 			$("#emailValidationErrorDiv").html("Please input a valid e-mail address");
 			$("#profileSaveButton").attr("disabled", true);
 		}
@@ -110,11 +116,13 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	{// @endlock
 
 		sources.task.priority = $$("newTaskPrioritySelect").sourceAtt.getValue();
-		//var curUserSet = WAF.sources.user.getEntityCollection();
-		WAF.sources.user.query("ID = :1", $$("newTaskUserSelect").sourceAtt.getValue());//find owner from select and query in user datasource
+		WAF.sources.user1.query("ID = :1", $$("newTaskUserSelect").sourceAtt.getValue());//find owner from select and query in user datasource
+		WAF.sources.task.manager.set(WAF.sources.user1);
+		WAF.sources.user.query("fullName = :1", WAF.directory.currentUser().fullName);// restore user datasource to current user
 		WAF.sources.task.owner.set(WAF.sources.user);
-		source.user.query("fullName = :1", WAF.directory.currentUser().fullName);// restore user datasource to current user
-		WAF.sources.task.manager.set(WAF.sources.user);
+
+		if (WAF.sources.task.owner)
+		WAF.sources.task.status = "Assigned";
 		WAF.sources.task.save({
 			onSuccess: function(event) {
 				//sources.task.addEntity(sources.taskCreated.getCurrentElement()); 
@@ -147,7 +155,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 		WAF.sources.task.description = "Please describe the task.";
 		WAF.sources.task.startDate = new Date();
 		WAF.sources.task.dueDate = new Date();
-		WAF.sources.task.status = "open";
+		WAF.sources.task.status = "Not assigned";
 		//WAF.sources.taskCreated.ID = sources.task.length  + 1;
 		$$("navigationView2").goToView(5);
 //		WAF.sources.task.save({

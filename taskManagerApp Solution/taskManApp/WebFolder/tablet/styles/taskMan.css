@@ -177,9 +177,9 @@
 
 #navigationView2 #view-manager2 #view10 #header10 #title10 {
 	 top: 0px;
-	 bottom: -3px;
+	 bottom: -4px;
 	 left: 0px;
-	 right: -4px;
+	 right: -6px;
 	
 	 position: absolute;
 	 
@@ -551,14 +551,15 @@
 }
 
 #navigationView2 #view-manager2 #view9 #body9 #signUperrDiv {
-	 width: 221px;
+	 width: 308px;
 	 height: 55px;
 	 top: 469px;
-	 left: 403px;
+	 left: 354px;
 	
 	 position: absolute;
 	 font-size: 16px;
 	 color: rgb(191, 0, 0);
+	 text-align: center;
 	 
 }
 
@@ -1082,10 +1083,10 @@
 }
 
 #navigationView2 #view-manager2 #view11 #body11 #label13 {
-	 width: 88px;
-	 height: 20px;
-	 top: 144px;
-	 left: 80px;
+	 width: 50px;
+	 height: 15px;
+	 top: 283px;
+	 left: 405px;
 	
 	 position: absolute;
 	 
@@ -1103,10 +1104,10 @@
 }
 
 #navigationView2 #view-manager2 #view11 #body11 #label13 {
-	 width: 88px;
-	 height: 20px;
-	 top: 144px;
-	 left: 80px;
+	 width: 50px;
+	 height: 15px;
+	 top: 283px;
+	 left: 405px;
 	
 	 position: absolute;
 	 font-size: 17px;
@@ -1490,9 +1491,9 @@
 
 #navigationView2 #view-manager2 #view10 #body10 #tabView1 #container1 #navigationView1 #view-manager1 #view1 #header1 #title1 {
 	 top: 0px;
-	 bottom: -2px;
+	 bottom: -3px;
 	 left: 0px;
-	 right: -2px;
+	 right: -4px;
 	
 	 position: absolute;
 	 
@@ -1753,8 +1754,8 @@
 #navigationView2 #view-manager2 #view12 #body12 #label44 {
 	 width: 37px;
 	 height: 15px;
-	 top: -20px;
-	 left: 0px;
+	 top: 68px;
+	 left: 752px;
 	
 	 position: absolute;
 	 
@@ -1774,8 +1775,8 @@
 #navigationView2 #view-manager2 #view12 #body12 #label44 {
 	 width: 37px;
 	 height: 15px;
-	 top: -20px;
-	 left: 0px;
+	 top: 68px;
+	 left: 752px;
 	
 	 position: absolute;
 	 font-size: 17px;
@@ -2003,9 +2004,9 @@
 }
 
 #navigationView2 #view-manager2 #view12 #body12 #label49 {
-	 width: 77px;
-	 height: 20px;
-	 top: 63px;
+	 width: 54px;
+	 height: 15px;
+	 top: 266px;
 	 left: 80px;
 	
 	 position: absolute;
@@ -2014,10 +2015,10 @@
 }
 
 #navigationView2 #view-manager2 #view12 #body12 #label50 {
-	 width: 86px;
-	 height: 20px;
-	 top: 155px;
-	 left: 80px;
+	 width: 57px;
+	 height: 15px;
+	 top: 266px;
+	 left: 395px;
 	
 	 position: absolute;
 	 font-size: 17px;
@@ -2025,10 +2026,10 @@
 }
 
 #navigationView2 #view-manager2 #view12 #body12 #label51 {
-	 width: 76px;
-	 height: 20px;
-	 top: 247px;
-	 left: 80px;
+	 width: 55px;
+	 height: 15px;
+	 top: 266px;
+	 left: 708px;
 	
 	 position: absolute;
 	 font-size: 17px;
@@ -2156,8 +2157,8 @@
 #navigationView2 #view-manager2 #view11 #body11 #label44 {
 	 width: 37px;
 	 height: 15px;
-	 top: -20px;
-	 left: 0px;
+	 top: 68px;
+	 left: 752px;
 	
 	 position: absolute;
 	 
@@ -2226,14 +2227,154 @@
 }
 
 #navigationView2 #view-manager2 #view12 #body12 #phoneFaxValidationErrorDiv {
-	 width: 278px;
+	 width: 305px;
 	 height: 27px;
 	 top: 131px;
-	 left: 658px;
+	 left: 631px;
 	
 	 position: absolute;
 	 font-size: 17px;
 	 color: rgb(191, 0, 0);
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #label13 {
+	 width: 50px;
+	 height: 15px;
+	 top: 283px;
+	 left: 405px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label49 {
+	 width: 54px;
+	 height: 15px;
+	 top: 266px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label50 {
+	 width: 57px;
+	 height: 15px;
+	 top: 266px;
+	 left: 395px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label51 {
+	 width: 55px;
+	 height: 15px;
+	 top: 266px;
+	 left: 708px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label59 {
+	 width: 60px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label60 {
+	 width: 67px;
+	 height: 15px;
+	 top: 160px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label61 {
+	 width: 59px;
+	 height: 15px;
+	 top: 252px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label62 {
+	 width: 106px;
+	 height: 15px;
+	 top: 345px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label63 {
+	 width: 39px;
+	 height: 15px;
+	 top: 68px;
+	 left: 599px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label64 {
+	 width: 22px;
+	 height: 15px;
+	 top: 160px;
+	 left: 599px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label65 {
+	 width: 35px;
+	 height: 15px;
+	 top: 252px;
+	 left: 599px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label66 {
+	 width: 65px;
+	 height: 15px;
+	 top: 345px;
+	 left: 599px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label67 {
+	 width: 47px;
+	 height: 15px;
+	 top: 345px;
+	 left: 787px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view10 #body10 #tabView1 #menuBar1 > .waf-menuItem:not(.waf-menuItem-last) {
+	 margin-bottom: 5px;
+	 
+}
+
+#navigationView2 #view-manager2 #view10 #body10 #tabView1 #menuBar1 > .waf-menuItem {
+	 margin-right: 0px;
 	 
 }
 
