@@ -116,16 +116,17 @@ function validatePhone(phoneToValidate) {
 	{// @endlock
 
 		sources.task.priority = $$("newTaskPrioritySelect").sourceAtt.getValue();
-		WAF.sources.user1.query("ID = :1", $$("newTaskUserSelect").sourceAtt.getValue());//find owner from select and query in user datasource
-		WAF.sources.task.manager.set(WAF.sources.user1);
-		WAF.sources.user.query("fullName = :1", WAF.directory.currentUser().fullName);// restore user datasource to current user
-		WAF.sources.task.owner.set(WAF.sources.user);
+		//WAF.sources.user.query("ID = :1", $$("newTaskUserSelect").sourceAtt.getValue());//find owner from select and query in user datasource
+		WAF.sources.task.owner.set(WAF.sources.user1);
+		//WAF.sources.user.query("fullName = :1", WAF.directory.currentUser().fullName);// restore user datasource to current user
+		WAF.sources.task.manager.set(WAF.sources.user);
 
 		if (WAF.sources.task.owner)
 		WAF.sources.task.status = "Assigned";
 		WAF.sources.task.save({
 			onSuccess: function(event) {
-				//sources.task.addEntity(sources.taskCreated.getCurrentElement()); 
+				//sources.task.addEntity(sources.taskCreated.getCurrentElement());
+				sources.user.all(); 
 				$$("navigationView2").goToView(4);
 				$("#taskManageErrorDiv").html("New Task Saved.");
 			},
@@ -156,7 +157,6 @@ function validatePhone(phoneToValidate) {
 		WAF.sources.task.startDate = new Date();
 		WAF.sources.task.dueDate = new Date();
 		WAF.sources.task.status = "Not assigned";
-		//WAF.sources.taskCreated.ID = sources.task.length  + 1;
 		$$("navigationView2").goToView(5);
 //		WAF.sources.task.save({
 //			onSuccess: function(event) {
