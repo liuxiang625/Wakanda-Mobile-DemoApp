@@ -8,7 +8,7 @@
 
 		<panel ____objectunic="true" isOpen="true" pathVisible="true">
 
-			<position ____objectunic="true" X="479" Y="27"/>
+			<position ____objectunic="true" X="587" Y="14"/>
 </panel>
 </extraProperties>
 
@@ -21,6 +21,8 @@
 	<attributes name="comment" kind="storage" scope="public" uuid="1774F6B025CA324BB7C62CFB9B2DD7AF" fieldPos="4" type="string"/>
 
 	<attributes name="time" kind="storage" scope="public" uuid="2634D68E2577F44FAE02B604FCF0E715" fieldPos="5" type="string"/>
+
+	<attributes name="name" scope="public" uuid="E1487BE5B43A2E47A8D3F8F61F927FBC" fieldPos="6" type="string" kind="storage"/>
 
 </dataClasses>
 
@@ -36,9 +38,9 @@
 
 	<attributes name="ID" kind="storage" scope="public" uuid="D2589E8A82D24917B8B3DE37F3A5FC67" fieldPos="1" unique="true" autosequence="true" type="long" primKey="true"/>
 
-	<attributes name="manager" kind="relatedEntity" scope="public" type="User" uuid="385406088C26194BA1C06FFB43397CB7" fieldPos="3" path="User"/>
+	<attributes name="manager" kind="relatedEntity" scope="public" type="User" uuid="385406088C26194BA1C06FFB43397CB7" fieldPos="2" path="User"/>
 
-	<attributes name="owner" kind="relatedEntity" scope="public" type="User" uuid="D02CEC29575E9142B44532FCDAD368B8" fieldPos="4" path="User"/>
+	<attributes name="owner" kind="relatedEntity" scope="public" type="User" uuid="D02CEC29575E9142B44532FCDAD368B8" fieldPos="3" path="User"/>
 
 	<attributes name="startDate" kind="storage" scope="public" uuid="C46E41124E238149AA7CD7BA9F7B3BA2" fieldPos="5" type="date"/>
 

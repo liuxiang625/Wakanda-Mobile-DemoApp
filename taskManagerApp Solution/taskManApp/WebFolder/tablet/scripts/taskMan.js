@@ -2,6 +2,11 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var button3 = {};	// @button
+	var button1 = {};	// @button
+	var taskCreatedDataGrid = {};	// @dataGrid
+	var taskDetailBackButton = {};	// @button
+	var dataGrid2 = {};	// @dataGrid
 	var textField10 = {};	// @textField
 	var textField12 = {};	// @textField
 	var profilePasswordConfirmField = {};	// @textField
@@ -25,6 +30,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
  deptArray = [];
  pririotyArray = [];
  locationArray = [];
+ statusArray = [];
  function validateEmail(emailToValidate) {
 	var pattern= new RegExp("^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$");// email matching regex
 	return pattern.test(emailToValidate);
@@ -35,6 +41,42 @@ function validatePhone(phoneToValidate) {
 	return pattern.test(strippedPhoneNumber);
 }
 // eventHandlers// @lock
+
+	button3.click = function button3_click (event)// @startlock
+	{// @endlock
+		$$("navigationView2").goToView(4);
+	};// @lock
+
+	button1.click = function button1_click (event)// @startlock
+	{// @endlock
+		$$("navigationView2").goToView(4);
+	};// @lock
+
+	taskCreatedDataGrid.onRowClick = function taskCreatedDataGrid_onRowClick (event)// @startlock
+	{// @endlock
+		WAF.sources.task.selectByKey(sources.taskCreated.getAttributeValue("ID"),{
+			onSuccess: function(event) {
+				$$("taskDetailOwnerSelect").setValue(sources.owner.getAttributeValue("fullName"));
+				$$("select11").setValue(sources.task.getAttributeValue("status"));  
+				$$("navigationView2").goToView(7);			}
+		});
+	};// @lock
+
+	taskDetailBackButton.click = function taskDetailBackButton_click (event)// @startlock
+	{// @endlock
+		$$("navigationView2").goToView(4);
+	};// @lock
+
+	dataGrid2.onRowClick = function dataGrid2_onRowClick (event)// @startlock
+	{// @endlock
+		
+		WAF.sources.task.selectByKey(sources.taskOwned.getAttributeValue("ID"),{
+			onSuccess: function(event) {
+				$$("taskDetailOwnerSelect").setValue(sources.owner.getAttributeValue("fullName"));
+				$$("select11").setValue(sources.task.getAttributeValue("status"));     
+				$$("navigationView2").goToView(7);			}
+		});
+	};// @lock
 
 	textField10.blur = function textField10_blur (event)// @startlock
 	{// @endlock
@@ -129,6 +171,14 @@ function validatePhone(phoneToValidate) {
 				sources.user.all(); 
 				$$("navigationView2").goToView(4);
 				$("#taskManageErrorDiv").html("New Task Saved.");
+				WAF.sources.actions.newEntity();
+				WAF.sources.actions.actor.set(WAF.sources.user);
+				WAF.sources.actions.targetTask.set(WAF.sources.task);
+				WAF.sources.actions.time = new Date();
+				WAF.sources.actions.name = "Created";
+				WAF.sources.actions.comment = "Task is created by: " + WAF.sources.user.fullName;
+				WAF.sources.actions.save();
+				WAF.sources.task.serverRefresh();
 			},
 			onError: function(error) {
 				$("#taskManageErrorDiv").html(error['error'][0].message);
@@ -158,16 +208,6 @@ function validatePhone(phoneToValidate) {
 		WAF.sources.task.dueDate = new Date();
 		WAF.sources.task.status = "Not assigned";
 		$$("navigationView2").goToView(5);
-//		WAF.sources.task.save({
-//			onSuccess: function(event) {
-//				//sources.task.addEntity(sources.task.getCurrentElement());
-//				$$("navigationView2").goToView(5);
-//			},
-//			onError: function(error) {
-//				$("#taskManageErrorDiv").html(error['error'][0].message);
-//			}
-//		}); 
-		
 	};// @lock
 
 	signUpDeptSelect.change = function signUpDeptSelect_change (event)// @startlock
@@ -179,12 +219,12 @@ function validatePhone(phoneToValidate) {
 	{// @endlock
 		//determine if their is a current user session
 		if (WAF.directory.currentUser() != null) {
-			
-			//sources.user.query("fullName = :1", WAF.directory.currentUser().fullName);//set user to current
 			$$("navigationView2").goToView(4);
 			$("#signInIndicatorDiv").html( WAF.directory.currentUser().fullName);
 		}
 		
+		statusArray = [{status: "Open"},{status:"Assigned"},{status: "Done"},{status:"Canceled"},{status: "Deleted"}];
+		sources.statusArray.sync();
 		locationArray = [{location: ""}, {location: "U.S."},{location: "France"}];
 		sources.locationArray.sync();
 		pririotyArray = [{priority: 'Low'},{priority: 'Mid'},{priority: 'High'},{priority: 'Emergency'}];
@@ -214,7 +254,6 @@ function validatePhone(phoneToValidate) {
 			$("#signInIndicatorDiv").html( WAF.directory.currentUser().fullName);
 			$$("signInLogInField").setValue("");
 			$$("signInPasswordField").setValue("");	
-			//sources.user1.all();
 			sources.user.query("fullName = :1", WAF.directory.currentUser().fullName);// set user to current		
 		} else {
 			//should limit times of invalid sign 
@@ -285,6 +324,11 @@ function validatePhone(phoneToValidate) {
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("button3", "click", button3.click, "WAF");
+	WAF.addListener("button1", "click", button1.click, "WAF");
+	WAF.addListener("taskCreatedDataGrid", "onRowClick", taskCreatedDataGrid.onRowClick, "WAF");
+	WAF.addListener("taskDetailBackButton", "click", taskDetailBackButton.click, "WAF");
+	WAF.addListener("dataGrid2", "onRowClick", dataGrid2.onRowClick, "WAF");
 	WAF.addListener("textField10", "blur", textField10.blur, "WAF");
 	WAF.addListener("textField12", "blur", textField12.blur, "WAF");
 	WAF.addListener("profilePasswordConfirmField", "blur", profilePasswordConfirmField.blur, "WAF");

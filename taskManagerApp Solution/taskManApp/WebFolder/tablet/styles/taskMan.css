@@ -137,9 +137,9 @@
 
 #navigationView2 #view-manager2 #view9 #header9 #title9 {
 	 top: 0px;
-	 bottom: -5px;
+	 bottom: -6px;
 	 left: 0px;
-	 right: -8px;
+	 right: -10px;
 	
 	 position: absolute;
 	 
@@ -217,9 +217,9 @@
 
 #navigationView2 #view-manager2 #view11 #header11 #title11 {
 	 top: 0px;
-	 bottom: -10px;
+	 bottom: -9px;
 	 left: 0px;
-	 right: -18px;
+	 right: -16px;
 	
 	 position: absolute;
 	 
@@ -297,19 +297,9 @@
 
 #navigationView2 #view-manager2 #view13 #header13 #title13 {
 	 top: 0px;
-	 bottom: -3px;
+	 bottom: -9px;
 	 left: 0px;
-	 right: -4px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #header13 #back-buttom13 {
-	 width: 50px;
-	 height: 29px;
-	 top: 7px;
-	 left: 20px;
+	 right: -16px;
 	
 	 position: absolute;
 	 
@@ -1115,10 +1105,10 @@
 }
 
 #navigationView2 #view-manager2 #view11 #body11 #label14 {
-	 height: 20px;
-	 top: 63px;
-	 left: auto;
-	 right: 219px;
+	 width: 50px;
+	 height: 15px;
+	 top: 283px;
+	 left: 405px;
 	
 	 position: absolute;
 	 font-size: 17px;
@@ -1126,20 +1116,20 @@
 }
 
 #navigationView2 #view-manager2 #view11 #body11 #label15 {
-	 width: 72px;
-	 height: 20px;
-	 top: 261px;
-	 left: 83px;
+	 width: 50px;
+	 height: 15px;
+	 top: 283px;
+	 left: 405px;
 	
 	 position: absolute;
 	 
 }
 
 #navigationView2 #view-manager2 #view11 #body11 #label15 {
-	 width: 72px;
-	 height: 20px;
-	 top: 261px;
-	 left: 83px;
+	 width: 50px;
+	 height: 15px;
+	 top: 283px;
+	 left: 405px;
 	
 	 position: absolute;
 	 font-size: 17px;
@@ -1147,10 +1137,10 @@
 }
 
 #navigationView2 #view-manager2 #view11 #body11 #label16 {
-	 width: 78px;
-	 height: 20px;
-	 top: 261px;
-	 left: 395px;
+	 width: 50px;
+	 height: 15px;
+	 top: 283px;
+	 left: 405px;
 	
 	 position: absolute;
 	 font-size: 17px;
@@ -1158,10 +1148,10 @@
 }
 
 #navigationView2 #view-manager2 #view11 #body11 #label17 {
-	 width: 74px;
-	 height: 20px;
-	 top: 261px;
-	 left: 708px;
+	 width: 50px;
+	 height: 15px;
+	 top: 283px;
+	 left: 405px;
 	
 	 position: absolute;
 	 
@@ -1179,10 +1169,10 @@
 }
 
 #navigationView2 #view-manager2 #view11 #body11 #label17 {
-	 width: 74px;
-	 height: 20px;
-	 top: 261px;
-	 left: 708px;
+	 width: 50px;
+	 height: 15px;
+	 top: 283px;
+	 left: 405px;
 	
 	 position: absolute;
 	 font-size: 17px;
@@ -1212,20 +1202,20 @@
 }
 
 #navigationView2 #view-manager2 #view11 #body11 #label18 {
-	 width: 54px;
+	 width: 50px;
 	 height: 15px;
-	 top: 266px;
-	 left: 83px;
+	 top: 283px;
+	 left: 405px;
 	
 	 position: absolute;
 	 
 }
 
 #navigationView2 #view-manager2 #view11 #body11 #label19 {
-	 width: 57px;
+	 width: 50px;
 	 height: 15px;
-	 top: 266px;
-	 left: 395px;
+	 top: 283px;
+	 left: 405px;
 	
 	 position: absolute;
 	 
@@ -1378,7 +1368,7 @@
 }
 
 #navigationView2 #view-manager2 #view11 #body11 #newTaskUserSelect {
-	 width: 196px;
+	 width: 209px;
 	 height: 44px;
 	 top: 286px;
 	 left: 80px;
@@ -1389,7 +1379,7 @@
 }
 
 #navigationView2 #view-manager2 #view11 #body11 #newTaskStartDateField {
-	 width: 196px;
+	 width: 209px;
 	 height: 44px;
 	 top: 286px;
 	 left: 395px;
@@ -1754,8 +1744,8 @@
 #navigationView2 #view-manager2 #view12 #body12 #label44 {
 	 width: 37px;
 	 height: 15px;
-	 top: 68px;
-	 left: 752px;
+	 top: -20px;
+	 left: 0px;
 	
 	 position: absolute;
 	 
@@ -1775,8 +1765,8 @@
 #navigationView2 #view-manager2 #view12 #body12 #label44 {
 	 width: 37px;
 	 height: 15px;
-	 top: 68px;
-	 left: 752px;
+	 top: -20px;
+	 left: 0px;
 	
 	 position: absolute;
 	 font-size: 17px;
@@ -2037,9 +2027,9 @@
 }
 
 #navigationView2 #view-manager2 #view12 #body12 #label52 {
-	 width: 139px;
-	 height: 20px;
-	 top: 340px;
+	 width: 54px;
+	 height: 15px;
+	 top: 266px;
 	 left: 80px;
 	
 	 position: absolute;
@@ -2048,10 +2038,10 @@
 }
 
 #navigationView2 #view-manager2 #view12 #body12 #label53 {
-	 width: 52px;
-	 height: 20px;
-	 top: 63px;
-	 left: 599px;
+	 width: 57px;
+	 height: 15px;
+	 top: 266px;
+	 left: 395px;
 	
 	 position: absolute;
 	 font-size: 17px;
@@ -2059,10 +2049,10 @@
 }
 
 #navigationView2 #view-manager2 #view12 #body12 #label54 {
-	 width: 31px;
-	 height: 20px;
-	 top: 155px;
-	 left: 599px;
+	 width: 55px;
+	 height: 15px;
+	 top: 266px;
+	 left: 708px;
 	
 	 position: absolute;
 	 font-size: 17px;
@@ -2070,10 +2060,10 @@
 }
 
 #navigationView2 #view-manager2 #view12 #body12 #label55 {
-	 width: 45px;
-	 height: 20px;
-	 top: 247px;
-	 left: 599px;
+	 width: 54px;
+	 height: 15px;
+	 top: 266px;
+	 left: 80px;
 	
 	 position: absolute;
 	 font-size: 17px;
@@ -2081,10 +2071,10 @@
 }
 
 #navigationView2 #view-manager2 #view12 #body12 #label56 {
-	 width: 84px;
-	 height: 20px;
-	 top: 340px;
-	 left: 599px;
+	 width: 57px;
+	 height: 15px;
+	 top: 266px;
+	 left: 395px;
 	
 	 position: absolute;
 	 font-size: 17px;
@@ -2092,10 +2082,10 @@
 }
 
 #navigationView2 #view-manager2 #view12 #body12 #label57 {
-	 width: 62px;
-	 height: 20px;
-	 top: 340px;
-	 left: 787px;
+	 width: 55px;
+	 height: 15px;
+	 top: 266px;
+	 left: 708px;
 	
 	 position: absolute;
 	 font-size: 17px;
@@ -2157,8 +2147,8 @@
 #navigationView2 #view-manager2 #view11 #body11 #label44 {
 	 width: 37px;
 	 height: 15px;
-	 top: 68px;
-	 left: 752px;
+	 top: -20px;
+	 left: 0px;
 	
 	 position: absolute;
 	 
@@ -2195,10 +2185,10 @@
 }
 
 #navigationView2 #view-manager2 #view12 #body12 #label58 {
-	 width: 47px;
+	 width: 26px;
 	 height: 15px;
-	 top: 345px;
-	 left: 787px;
+	 top: 68px;
+	 left: 80px;
 	
 	 position: absolute;
 	 
@@ -2279,9 +2269,9 @@
 }
 
 #navigationView2 #view-manager2 #view12 #body12 #label59 {
-	 width: 60px;
+	 width: 54px;
 	 height: 15px;
-	 top: 68px;
+	 top: 266px;
 	 left: 80px;
 	
 	 position: absolute;
@@ -2289,29 +2279,29 @@
 }
 
 #navigationView2 #view-manager2 #view12 #body12 #label60 {
-	 width: 67px;
+	 width: 57px;
 	 height: 15px;
-	 top: 160px;
-	 left: 80px;
+	 top: 266px;
+	 left: 395px;
 	
 	 position: absolute;
 	 
 }
 
 #navigationView2 #view-manager2 #view12 #body12 #label61 {
-	 width: 59px;
+	 width: 55px;
 	 height: 15px;
-	 top: 252px;
-	 left: 80px;
+	 top: 266px;
+	 left: 708px;
 	
 	 position: absolute;
 	 
 }
 
 #navigationView2 #view-manager2 #view12 #body12 #label62 {
-	 width: 106px;
+	 width: 26px;
 	 height: 15px;
-	 top: 345px;
+	 top: 68px;
 	 left: 80px;
 	
 	 position: absolute;
@@ -2319,50 +2309,50 @@
 }
 
 #navigationView2 #view-manager2 #view12 #body12 #label63 {
-	 width: 39px;
+	 width: 54px;
 	 height: 15px;
-	 top: 68px;
-	 left: 599px;
+	 top: 266px;
+	 left: 80px;
 	
 	 position: absolute;
 	 
 }
 
 #navigationView2 #view-manager2 #view12 #body12 #label64 {
-	 width: 22px;
+	 width: 57px;
 	 height: 15px;
-	 top: 160px;
-	 left: 599px;
+	 top: 266px;
+	 left: 395px;
 	
 	 position: absolute;
 	 
 }
 
 #navigationView2 #view-manager2 #view12 #body12 #label65 {
-	 width: 35px;
+	 width: 55px;
 	 height: 15px;
-	 top: 252px;
-	 left: 599px;
+	 top: 266px;
+	 left: 708px;
 	
 	 position: absolute;
 	 
 }
 
 #navigationView2 #view-manager2 #view12 #body12 #label66 {
-	 width: 65px;
+	 width: 26px;
 	 height: 15px;
-	 top: 345px;
-	 left: 599px;
+	 top: 68px;
+	 left: 80px;
 	
 	 position: absolute;
 	 
 }
 
 #navigationView2 #view-manager2 #view12 #body12 #label67 {
-	 width: 47px;
+	 width: 54px;
 	 height: 15px;
-	 top: 345px;
-	 left: 787px;
+	 top: 266px;
+	 left: 80px;
 	
 	 position: absolute;
 	 
@@ -2375,6 +2365,1433 @@
 
 #navigationView2 #view-manager2 #view10 #body10 #tabView1 #menuBar1 > .waf-menuItem {
 	 margin-right: 0px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label68 {
+	 width: 57px;
+	 height: 15px;
+	 top: 266px;
+	 left: 395px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label69 {
+	 width: 55px;
+	 height: 15px;
+	 top: 266px;
+	 left: 708px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #textField9 {
+	 width: 209px;
+	 height: 44px;
+	 top: 183px;
+	 left: 82px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label69 {
+	 width: 55px;
+	 height: 15px;
+	 top: 266px;
+	 left: 708px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label70 {
+	 width: 26px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #select7 {
+	 width: 120px;
+	 height: 44px;
+	 top: 88px;
+	 left: 819px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label71 {
+	 width: 54px;
+	 height: 15px;
+	 top: 266px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #label14 {
+	 width: 50px;
+	 height: 15px;
+	 top: 283px;
+	 left: 405px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label52 {
+	 width: 54px;
+	 height: 15px;
+	 top: 266px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label53 {
+	 width: 57px;
+	 height: 15px;
+	 top: 266px;
+	 left: 395px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label54 {
+	 width: 55px;
+	 height: 15px;
+	 top: 266px;
+	 left: 708px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label68 {
+	 width: 57px;
+	 height: 15px;
+	 top: 266px;
+	 left: 395px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label73 {
+	 width: 55px;
+	 height: 15px;
+	 top: 266px;
+	 left: 708px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label74 {
+	 width: 26px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view10 #body10 #tabView1 #menuBar1 > .waf-menuItem:not(.waf-menuItem-last) {
+	 margin-bottom: 5px;
+	 
+}
+
+#navigationView2 #view-manager2 #view10 #body10 #tabView1 #menuBar1 > .waf-menuItem {
+	 margin-right: 0px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label76 {
+	 width: 35px;
+	 height: 15px;
+	 top: 252px;
+	 left: 599px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label77 {
+	 width: 65px;
+	 height: 15px;
+	 top: 345px;
+	 left: 599px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #select11 {
+	 width: 120px;
+	 height: 44px;
+	 top: 88px;
+	 left: 630px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label77 {
+	 width: 65px;
+	 height: 15px;
+	 top: 345px;
+	 left: 599px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label78 {
+	 width: 47px;
+	 height: 15px;
+	 top: 345px;
+	 left: 787px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #textField13 {
+	 width: 120px;
+	 height: 44px;
+	 top: 183px;
+	 left: 630px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label78 {
+	 width: 47px;
+	 height: 15px;
+	 top: 345px;
+	 left: 787px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label79 {
+	 width: 47px;
+	 height: 15px;
+	 top: 345px;
+	 left: 787px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #textField14 {
+	 width: 120px;
+	 height: 44px;
+	 top: 183px;
+	 left: 819px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label79 {
+	 width: 47px;
+	 height: 15px;
+	 top: 345px;
+	 left: 787px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label80 {
+	 width: 60px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #textField15 {
+	 width: 857px;
+	 height: 65px;
+	 top: 284px;
+	 left: 82px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label80 {
+	 width: 60px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label72 {
+	 width: 57px;
+	 height: 15px;
+	 top: 266px;
+	 left: 395px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #textField8 {
+	 width: 481px;
+	 height: 44px;
+	 top: 88px;
+	 left: 80px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #textField8 {
+	 width: 481px;
+	 height: 44px;
+	 top: 88px;
+	 left: 80px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label72 {
+	 width: 57px;
+	 height: 15px;
+	 top: 266px;
+	 left: 395px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #dataGrid1 {
+	 width: 856px;
+	 height: 131px;
+	 top: 391px;
+	 left: 81px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 -webkit-box-shadow: rgba(0, 0, 0, 0.699219) 0px 0px 0px 0px;
+	 -moz-box-shadow: rgba(0, 0, 0, 0.699219) 0px 0px 0px 0px;
+	 box-shadow: rgba(0, 0, 0, 0.699219) 0px 0px 0px 0px;
+
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #label15 {
+	 width: 50px;
+	 height: 15px;
+	 top: 283px;
+	 left: 405px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label55 {
+	 width: 54px;
+	 height: 15px;
+	 top: 266px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label56 {
+	 width: 57px;
+	 height: 15px;
+	 top: 266px;
+	 left: 395px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label57 {
+	 width: 55px;
+	 height: 15px;
+	 top: 266px;
+	 left: 708px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label58 {
+	 width: 26px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label69 {
+	 width: 55px;
+	 height: 15px;
+	 top: 266px;
+	 left: 708px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label75 {
+	 width: 22px;
+	 height: 15px;
+	 top: 160px;
+	 left: 599px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label81 {
+	 width: 67px;
+	 height: 15px;
+	 top: 160px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label82 {
+	 width: 59px;
+	 height: 15px;
+	 top: 252px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label83 {
+	 width: 106px;
+	 height: 15px;
+	 top: 345px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label84 {
+	 width: 39px;
+	 height: 15px;
+	 top: 68px;
+	 left: 599px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label85 {
+	 width: 22px;
+	 height: 15px;
+	 top: 160px;
+	 left: 599px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view10 #body10 #tabView1 #menuBar1 > .waf-menuItem:not(.waf-menuItem-last) {
+	 margin-bottom: 5px;
+	 
+}
+
+#navigationView2 #view-manager2 #view10 #body10 #tabView1 #menuBar1 > .waf-menuItem {
+	 margin-right: 0px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label86 {
+	 width: 35px;
+	 height: 15px;
+	 top: 252px;
+	 left: 599px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label88 {
+	 width: 47px;
+	 height: 15px;
+	 top: 345px;
+	 left: 787px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #label16 {
+	 width: 50px;
+	 height: 15px;
+	 top: 283px;
+	 left: 405px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label59 {
+	 width: 54px;
+	 height: 15px;
+	 top: 266px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label60 {
+	 width: 57px;
+	 height: 15px;
+	 top: 266px;
+	 left: 395px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label61 {
+	 width: 55px;
+	 height: 15px;
+	 top: 266px;
+	 left: 708px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label62 {
+	 width: 26px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label70 {
+	 width: 26px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label71 {
+	 width: 54px;
+	 height: 15px;
+	 top: 266px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label72 {
+	 width: 57px;
+	 height: 15px;
+	 top: 266px;
+	 left: 395px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label73 {
+	 width: 55px;
+	 height: 15px;
+	 top: 266px;
+	 left: 708px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label74 {
+	 width: 26px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label75 {
+	 width: 22px;
+	 height: 15px;
+	 top: 160px;
+	 left: 599px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label76 {
+	 width: 35px;
+	 height: 15px;
+	 top: 252px;
+	 left: 599px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label77 {
+	 width: 65px;
+	 height: 15px;
+	 top: 345px;
+	 left: 599px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label78 {
+	 width: 47px;
+	 height: 15px;
+	 top: 345px;
+	 left: 787px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label87 {
+	 width: 65px;
+	 height: 15px;
+	 top: 345px;
+	 left: 599px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label89 {
+	 width: 47px;
+	 height: 15px;
+	 top: 345px;
+	 left: 787px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label90 {
+	 width: 90px;
+	 height: 20px;
+	 top: 158px;
+	 left: 355px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label91 {
+	 width: 45px;
+	 height: 20px;
+	 top: 63px;
+	 left: 630px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label92 {
+	 width: 73px;
+	 height: 20px;
+	 top: 63px;
+	 left: 80px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label93 {
+	 width: 78px;
+	 height: 20px;
+	 top: 158px;
+	 left: 630px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label94 {
+	 width: 74px;
+	 height: 20px;
+	 top: 158px;
+	 left: 819px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label95 {
+	 width: 127px;
+	 height: 20px;
+	 top: 259px;
+	 left: 82px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label96 {
+	 width: 152px;
+	 height: 20px;
+	 top: 366px;
+	 left: 81px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view10 #body10 #tabView1 #menuBar1 > .waf-menuItem:not(.waf-menuItem-last) {
+	 margin-bottom: 5px;
+	 
+}
+
+#navigationView2 #view-manager2 #view10 #body10 #tabView1 #menuBar1 > .waf-menuItem {
+	 margin-right: 0px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #taskDetailUpdateButton {
+	 width: 120px;
+	 height: 44px;
+	 top: 598px;
+	 left: 817px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #taskDetailBackButton {
+	 width: 120px;
+	 height: 44px;
+	 top: 598px;
+	 left: 643px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #button7 {
+	 width: 75px;
+	 height: 44px;
+	 top: 5px;
+	 left: 7px;
+	
+	 position: absolute;
+	 font-size: 15px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #button8 {
+	 width: 75px;
+	 height: 44px;
+	 top: 5px;
+	 left: 936px;
+	
+	 position: absolute;
+	 font-size: 15px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label98 {
+	 width: 111px;
+	 height: 20px;
+	 top: 496px;
+	 left: 79px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #textField16 {
+	 width: 748px;
+	 height: 44px;
+	 top: 521px;
+	 left: 79px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label98 {
+	 width: 111px;
+	 height: 20px;
+	 top: 496px;
+	 left: 79px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #button9 {
+	 width: 75px;
+	 height: 44px;
+	 top: 520px;
+	 left: 862px;
+	
+	 position: absolute;
+	 font-size: 15px;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #label17 {
+	 width: 50px;
+	 height: 15px;
+	 top: 283px;
+	 left: 405px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label63 {
+	 width: 54px;
+	 height: 15px;
+	 top: 266px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label64 {
+	 width: 57px;
+	 height: 15px;
+	 top: 266px;
+	 left: 395px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label65 {
+	 width: 55px;
+	 height: 15px;
+	 top: 266px;
+	 left: 708px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label66 {
+	 width: 26px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label79 {
+	 width: 47px;
+	 height: 15px;
+	 top: 345px;
+	 left: 787px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label97 {
+	 width: 68px;
+	 height: 15px;
+	 top: 163px;
+	 left: 355px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label99 {
+	 width: 35px;
+	 height: 15px;
+	 top: 68px;
+	 left: 630px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label100 {
+	 width: 56px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label101 {
+	 width: 57px;
+	 height: 15px;
+	 top: 163px;
+	 left: 630px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label102 {
+	 width: 55px;
+	 height: 15px;
+	 top: 163px;
+	 left: 819px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label103 {
+	 width: 96px;
+	 height: 15px;
+	 top: 264px;
+	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label104 {
+	 width: 116px;
+	 height: 15px;
+	 top: 371px;
+	 left: 81px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label105 {
+	 width: 83px;
+	 height: 15px;
+	 top: 501px;
+	 left: 79px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view10 #body10 #tabView1 #menuBar1 > .waf-menuItem:not(.waf-menuItem-last) {
+	 margin-bottom: 5px;
+	 
+}
+
+#navigationView2 #view-manager2 #view10 #body10 #tabView1 #menuBar1 > .waf-menuItem {
+	 margin-right: 0px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #taskDetailOwnerSelect {
+	 width: 203px;
+	 height: 44px;
+	 top: 183px;
+	 left: 355px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #label18 {
+	 width: 50px;
+	 height: 15px;
+	 top: 283px;
+	 left: 405px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label67 {
+	 width: 54px;
+	 height: 15px;
+	 top: 266px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label68 {
+	 width: 57px;
+	 height: 15px;
+	 top: 266px;
+	 left: 395px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label69 {
+	 width: 55px;
+	 height: 15px;
+	 top: 266px;
+	 left: 708px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label70 {
+	 width: 26px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label80 {
+	 width: 60px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label81 {
+	 width: 67px;
+	 height: 15px;
+	 top: 160px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label82 {
+	 width: 59px;
+	 height: 15px;
+	 top: 252px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label83 {
+	 width: 106px;
+	 height: 15px;
+	 top: 345px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label84 {
+	 width: 39px;
+	 height: 15px;
+	 top: 68px;
+	 left: 599px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label85 {
+	 width: 22px;
+	 height: 15px;
+	 top: 160px;
+	 left: 599px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label86 {
+	 width: 35px;
+	 height: 15px;
+	 top: 252px;
+	 left: 599px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label87 {
+	 width: 65px;
+	 height: 15px;
+	 top: 345px;
+	 left: 599px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label88 {
+	 width: 47px;
+	 height: 15px;
+	 top: 345px;
+	 left: 787px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label106 {
+	 width: 51px;
+	 height: 15px;
+	 top: 163px;
+	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label107 {
+	 width: 37px;
+	 height: 15px;
+	 top: 68px;
+	 left: 819px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label108 {
+	 width: 68px;
+	 height: 15px;
+	 top: 163px;
+	 left: 355px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label109 {
+	 width: 35px;
+	 height: 15px;
+	 top: 68px;
+	 left: 630px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label110 {
+	 width: 56px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label111 {
+	 width: 57px;
+	 height: 15px;
+	 top: 163px;
+	 left: 630px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label112 {
+	 width: 55px;
+	 height: 15px;
+	 top: 163px;
+	 left: 819px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label113 {
+	 width: 96px;
+	 height: 15px;
+	 top: 264px;
+	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label114 {
+	 width: 116px;
+	 height: 15px;
+	 top: 371px;
+	 left: 81px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label115 {
+	 width: 83px;
+	 height: 15px;
+	 top: 501px;
+	 left: 79px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view10 #body10 #tabView1 #menuBar1 > .waf-menuItem:not(.waf-menuItem-last) {
+	 margin-bottom: 5px;
+	 
+}
+
+#navigationView2 #view-manager2 #view10 #body10 #tabView1 #menuBar1 > .waf-menuItem {
+	 margin-right: 0px;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #label19 {
+	 width: 50px;
+	 height: 15px;
+	 top: 283px;
+	 left: 405px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label71 {
+	 width: 54px;
+	 height: 15px;
+	 top: 266px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label72 {
+	 width: 57px;
+	 height: 15px;
+	 top: 266px;
+	 left: 395px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label73 {
+	 width: 55px;
+	 height: 15px;
+	 top: 266px;
+	 left: 708px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label74 {
+	 width: 26px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label89 {
+	 width: 47px;
+	 height: 15px;
+	 top: 345px;
+	 left: 787px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label116 {
+	 width: 68px;
+	 height: 15px;
+	 top: 163px;
+	 left: 355px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label117 {
+	 width: 35px;
+	 height: 15px;
+	 top: 68px;
+	 left: 630px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label118 {
+	 width: 56px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label119 {
+	 width: 57px;
+	 height: 15px;
+	 top: 163px;
+	 left: 630px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label120 {
+	 width: 55px;
+	 height: 15px;
+	 top: 163px;
+	 left: 819px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label121 {
+	 width: 96px;
+	 height: 15px;
+	 top: 264px;
+	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label122 {
+	 width: 116px;
+	 height: 15px;
+	 top: 371px;
+	 left: 81px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label123 {
+	 width: 83px;
+	 height: 15px;
+	 top: 501px;
+	 left: 79px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view10 #body10 #tabView1 #menuBar1 > .waf-menuItem:not(.waf-menuItem-last) {
+	 margin-bottom: 5px;
+	 
+}
+
+#navigationView2 #view-manager2 #view10 #body10 #tabView1 #menuBar1 > .waf-menuItem {
+	 margin-right: 0px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #button1 {
+	 width: 120px;
+	 height: 44px;
+	 top: 598px;
+	 left: 81px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #button3 {
+	 width: 120px;
+	 height: 44px;
+	 top: 598px;
+	 left: 286px;
+	
+	 position: absolute;
+	 font-size: 17px;
 	 
 }
 
