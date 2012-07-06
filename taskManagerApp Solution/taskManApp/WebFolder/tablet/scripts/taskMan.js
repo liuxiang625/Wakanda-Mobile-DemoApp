@@ -2,6 +2,13 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var nextTaskImageButton = {};	// @buttonImage
+	var button9 = {};	// @button
+	var previuosTaskImageButton = {};	// @buttonImage
+	var menuItem3 = {};	// @menuItem
+	var menuItem2 = {};	// @menuItem
+	var menuItem1 = {};	// @menuItem
+	var button6 = {};	// @button
 	var button3 = {};	// @button
 	var button1 = {};	// @button
 	var taskCreatedDataGrid = {};	// @dataGrid
@@ -42,6 +49,52 @@ function validatePhone(phoneToValidate) {
 }
 // eventHandlers// @lock
 
+	nextTaskImageButton.click = function nextTaskImageButton_click (event)// @startlock
+	{// @endlock
+		sources.task.selectNext();
+	};// @lock
+
+	button9.click = function button9_click (event)// @startlock
+	{// @endlock
+		WAF.sources.actions.newEntity();
+		WAF.sources.actions.actor.set(WAF.sources.user);
+		WAF.sources.actions.targetTask.set(WAF.sources.task);
+		WAF.sources.actions.time = new Date();
+		WAF.sources.actions.name = "Updated";
+		WAF.sources.actions.comment = WAF.sources.user.fullName + " Says: " + $$("actionCommentPostField").getValue();
+		WAF.sources.actions.save();
+		WAF.sources.actions.serverRefresh();
+		$$("actionCommentPostField").setValue("")
+	};// @lock
+
+	previuosTaskImageButton.click = function previuosTaskImageButton_click (event)// @startlock
+	{// @endlock
+		sources.task.selectPrevious();
+	};// @lock
+
+	menuItem3.click = function menuItem3_click (event)// @startlock
+	{// @endlock
+		$$("taskCreatedQeryField").setValue("status: All");
+		sources.task.query("");
+	};// @lock
+
+	menuItem2.click = function menuItem2_click (event)// @startlock
+	{// @endlock
+		$$("taskCreatedQeryField").setValue("from: " + WAF.directory.currentUser().fullName + " status: Open | Active");
+		sources.task.query("manager.fullName = :1 and status = :2 or status = :3",{params:[WAF.directory.currentUser().fullName,"Open","Active"]});
+	};// @lock
+
+	menuItem1.click = function menuItem1_click (event)// @startlock
+	{// @endlock
+		$$("taskCreatedQeryField").setValue("to: " + WAF.directory.currentUser().fullName + " status: Open | Active");
+		sources.task.query("owner.fullName = :1 and status != :2 and status != :3",{params:[WAF.directory.currentUser().fullName,"Deleted","Canceled"]});
+	};// @lock
+
+	button6.click = function button6_click (event)// @startlock
+	{// @endlock
+		$$("navigationView2").goToView(4);
+	};// @lock
+
 	button3.click = function button3_click (event)// @startlock
 	{// @endlock
 		$$("navigationView2").goToView(4);
@@ -54,12 +107,12 @@ function validatePhone(phoneToValidate) {
 
 	taskCreatedDataGrid.onRowClick = function taskCreatedDataGrid_onRowClick (event)// @startlock
 	{// @endlock
-		WAF.sources.task.selectByKey(sources.taskCreated.getAttributeValue("ID"),{
-			onSuccess: function(event) {
+		//WAF.sources.task.selectByKey(sources.taskCreated.getAttributeValue("ID"),{
+		//	onSuccess: function(event) {
 				$$("taskDetailOwnerSelect").setValue(sources.owner.getAttributeValue("fullName"));
 				$$("select11").setValue(sources.task.getAttributeValue("status"));  
-				$$("navigationView2").goToView(7);			}
-		});
+				$$("navigationView2").goToView(7);			//}
+		//});
 	};// @lock
 
 	taskDetailBackButton.click = function taskDetailBackButton_click (event)// @startlock
@@ -70,12 +123,12 @@ function validatePhone(phoneToValidate) {
 	dataGrid2.onRowClick = function dataGrid2_onRowClick (event)// @startlock
 	{// @endlock
 		
-		WAF.sources.task.selectByKey(sources.taskOwned.getAttributeValue("ID"),{
-			onSuccess: function(event) {
+		//WAF.sources.task.selectByKey(sources.taskOwned.getAttributeValue("ID"),{
+		//	onSuccess: function(event) {
 				$$("taskDetailOwnerSelect").setValue(sources.owner.getAttributeValue("fullName"));
 				$$("select11").setValue(sources.task.getAttributeValue("status"));     
-				$$("navigationView2").goToView(7);			}
-		});
+				$$("navigationView2").goToView(7);			//}
+		//});
 	};// @lock
 
 	textField10.blur = function textField10_blur (event)// @startlock
@@ -164,7 +217,7 @@ function validatePhone(phoneToValidate) {
 		WAF.sources.task.manager.set(WAF.sources.user);
 
 		if (WAF.sources.task.owner)
-		WAF.sources.task.status = "Assigned";
+		WAF.sources.task.status = "Active";
 		WAF.sources.task.save({
 			onSuccess: function(event) {
 				//sources.task.addEntity(sources.taskCreated.getCurrentElement());
@@ -206,7 +259,7 @@ function validatePhone(phoneToValidate) {
 		WAF.sources.task.description = "Please describe the task.";
 		WAF.sources.task.startDate = new Date();
 		WAF.sources.task.dueDate = new Date();
-		WAF.sources.task.status = "Not assigned";
+		WAF.sources.task.status = "Open";
 		$$("navigationView2").goToView(5);
 	};// @lock
 
@@ -223,7 +276,7 @@ function validatePhone(phoneToValidate) {
 			$("#signInIndicatorDiv").html( WAF.directory.currentUser().fullName);
 		}
 		
-		statusArray = [{status: "Open"},{status:"Assigned"},{status: "Done"},{status:"Canceled"},{status: "Deleted"}];
+		statusArray = [{status: "Open"},{status:"Active"},{status: "Completed"},{status:"Canceled"},{status: "Deleted"}];
 		sources.statusArray.sync();
 		locationArray = [{location: ""}, {location: "U.S."},{location: "France"}];
 		sources.locationArray.sync();
@@ -324,6 +377,13 @@ function validatePhone(phoneToValidate) {
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("nextTaskImageButton", "click", nextTaskImageButton.click, "WAF");
+	WAF.addListener("button9", "click", button9.click, "WAF");
+	WAF.addListener("previuosTaskImageButton", "click", previuosTaskImageButton.click, "WAF");
+	WAF.addListener("menuItem3", "click", menuItem3.click, "WAF");
+	WAF.addListener("menuItem2", "click", menuItem2.click, "WAF");
+	WAF.addListener("menuItem1", "click", menuItem1.click, "WAF");
+	WAF.addListener("button6", "click", button6.click, "WAF");
 	WAF.addListener("button3", "click", button3.click, "WAF");
 	WAF.addListener("button1", "click", button1.click, "WAF");
 	WAF.addListener("taskCreatedDataGrid", "onRowClick", taskCreatedDataGrid.onRowClick, "WAF");
