@@ -2,13 +2,16 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var taskDetailOwnerSelect = {};	// @select
+	var taskStatusSelect = {};	// @select
+	var taskDetailUpdateButton = {};	// @button
 	var nextTaskImageButton = {};	// @buttonImage
 	var button9 = {};	// @button
 	var previuosTaskImageButton = {};	// @buttonImage
 	var menuItem3 = {};	// @menuItem
 	var menuItem2 = {};	// @menuItem
 	var menuItem1 = {};	// @menuItem
-	var button6 = {};	// @button
+	var taskFinishButton = {};	// @button
 	var button3 = {};	// @button
 	var button1 = {};	// @button
 	var taskCreatedDataGrid = {};	// @dataGrid
@@ -46,8 +49,85 @@ function validatePhone(phoneToValidate) {
 	var strippedPhoneNumber = phoneToValidate.replace(new RegExp("[\s()+\-\.]|ext","gi"), '');// get rid of () + - . ext in number
 	var pattern = new RegExp("^[0-9]{7,14}$");//match 7-14 digits
 	return pattern.test(strippedPhoneNumber);
-}
+};
+function taskStatusAction(taskNextStatus) {
+	var taskPreviousStatus =  sources.task.status;// back status original status
+		if(confirm("Are you sure to set task as " + taskStatus + " ?")) {
+			$$("taskStatusSelect").setValue(taskNextStatus);
+			sources.task.status = taskNextStatus;
+			sources.task.save({
+				onSuccess: function (event) {
+					WAF.sources.actions.newEntity();
+					WAF.sources.actions.actor.set(WAF.sources.user);
+					WAF.sources.actions.targetTask.set(WAF.sources.task);
+					WAF.sources.actions.time = new Date();
+					WAF.sources.actions.name = taskNextStatus;
+					WAF.sources.actions.comment = "Task " + taskNextStatus + " by: " + WAF.sources.user.fullName;
+					WAF.sources.actions.save();
+					WAF.sources.actions.serverRefresh();
+					//WAF.sources.actions.all();
+					$("#taskManageErrorDiv").html("Task has been updated");
+					$$("navigationView2").goToView(4);
+				},
+				onError: function(error) {
+					$("#taskUpdateErrorDiv").html(error['error'][0].message);
+				}	
+			});
+		}
+		else {
+			$$("taskStatusSelect").setValue(taskPreviousStatus);
+		}	
+	
+};
 // eventHandlers// @lock
+
+	taskDetailOwnerSelect.change = function taskDetailOwnerSelect_change (event)// @startlock
+	{// @endlock
+		//taskDetailOwnerSelect
+		var taskPreviousOwner = sources.task.owner.fullName;
+		var taskNextOwner = $$("taskDetailOwnerSelect").sourceAtt.getValue();
+		if(confirm("Are you sure to set task owner to " + taskNextOwner + " ?")) {
+			sources.user1.query("fullName = :1",taskNextOwner);
+			sources.task.owner.set(sources.user1);
+		}
+		else {
+			$$("taskDetailOwnerSelect").setValue(taskPreviousOwner);
+		}
+	};// @lock
+
+	taskStatusSelect.change = function taskStatusSelect_change (event)// @startlock
+	{// @endlock
+		var taskPreviousStatus = sources.task.status;// back status original status
+		var taskStatus = $$("taskStatusSelect").sourceAtt.getValue(); // get selected value
+		if(confirm("Are you sure to set task as " + taskStatus + " ?")) {
+			sources.task.status = taskStatus;
+		}
+		else {
+			$$("taskStatusSelect").setValue(taskPreviousStatus);
+		}	
+	};// @lock
+
+	taskDetailUpdateButton.click = function taskDetailUpdateButton_click (event)// @startlock
+	{// @endlock
+		sources.task.save({
+			onSuccess: function (event) {
+				WAF.sources.actions.newEntity();
+				WAF.sources.actions.actor.set(WAF.sources.user);
+				WAF.sources.actions.targetTask.set(WAF.sources.task);
+				WAF.sources.actions.time = new Date();
+				WAF.sources.actions.name = "Updated";
+				WAF.sources.actions.comment = "Task updated by: " + WAF.sources.user.fullName;
+				WAF.sources.actions.save();
+				WAF.sources.actions.serverRefresh();
+				//WAF.sources.actions.all();
+				$("#taskManageErrorDiv").html("Task has been updated");
+				$$("navigationView2").goToView(4);
+			},
+			onError: function(error) {
+				$("#taskUpdateErrorDiv").html(error['error'][0].message);
+			}	
+		});
+	};// @lock
 
 	nextTaskImageButton.click = function nextTaskImageButton_click (event)// @startlock
 	{// @endlock
@@ -64,6 +144,7 @@ function validatePhone(phoneToValidate) {
 		WAF.sources.actions.comment = WAF.sources.user.fullName + " Says: " + $$("actionCommentPostField").getValue();
 		WAF.sources.actions.save();
 		WAF.sources.actions.serverRefresh();
+		//WAF.sources.actions.all();
 		$$("actionCommentPostField").setValue("")
 	};// @lock
 
@@ -90,7 +171,7 @@ function validatePhone(phoneToValidate) {
 		sources.task.query("owner.fullName = :1 and status != :2 and status != :3",{params:[WAF.directory.currentUser().fullName,"Deleted","Canceled"]});
 	};// @lock
 
-	button6.click = function button6_click (event)// @startlock
+	taskFinishButton.click = function taskFinishButton_click (event)// @startlock
 	{// @endlock
 		$$("navigationView2").goToView(4);
 	};// @lock
@@ -110,14 +191,22 @@ function validatePhone(phoneToValidate) {
 		//WAF.sources.task.selectByKey(sources.taskCreated.getAttributeValue("ID"),{
 		//	onSuccess: function(event) {
 				$$("taskDetailOwnerSelect").setValue(sources.owner.getAttributeValue("fullName"));
-				$$("select11").setValue(sources.task.getAttributeValue("status"));  
+				$$("taskStatusSelect").setValue(sources.task.getAttributeValue("status"));  
 				$$("navigationView2").goToView(7);			//}
 		//});
 	};// @lock
 
 	taskDetailBackButton.click = function taskDetailBackButton_click (event)// @startlock
 	{// @endlock
-		$$("navigationView2").goToView(4);
+		sources.task.all({
+			onSuccess: function(event) {
+				$$("navigationView2").goToView(4);
+				//$("#taskManageErrorDiv").html("Task update canceled");
+			},
+			onError: function(error) {
+				$("#taskUpdateErrorDiv").html(error['error'][0].message);
+			}
+		}); 
 	};// @lock
 
 	dataGrid2.onRowClick = function dataGrid2_onRowClick (event)// @startlock
@@ -126,7 +215,7 @@ function validatePhone(phoneToValidate) {
 		//WAF.sources.task.selectByKey(sources.taskOwned.getAttributeValue("ID"),{
 		//	onSuccess: function(event) {
 				$$("taskDetailOwnerSelect").setValue(sources.owner.getAttributeValue("fullName"));
-				$$("select11").setValue(sources.task.getAttributeValue("status"));     
+				$$("taskStatusSelect").setValue(sources.task.getAttributeValue("status"));     
 				$$("navigationView2").goToView(7);			//}
 		//});
 	};// @lock
@@ -377,13 +466,16 @@ function validatePhone(phoneToValidate) {
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("taskDetailOwnerSelect", "change", taskDetailOwnerSelect.change, "WAF");
+	WAF.addListener("taskStatusSelect", "change", taskStatusSelect.change, "WAF");
+	WAF.addListener("taskDetailUpdateButton", "click", taskDetailUpdateButton.click, "WAF");
 	WAF.addListener("nextTaskImageButton", "click", nextTaskImageButton.click, "WAF");
 	WAF.addListener("button9", "click", button9.click, "WAF");
 	WAF.addListener("previuosTaskImageButton", "click", previuosTaskImageButton.click, "WAF");
 	WAF.addListener("menuItem3", "click", menuItem3.click, "WAF");
 	WAF.addListener("menuItem2", "click", menuItem2.click, "WAF");
 	WAF.addListener("menuItem1", "click", menuItem1.click, "WAF");
-	WAF.addListener("button6", "click", button6.click, "WAF");
+	WAF.addListener("taskFinishButton", "click", taskFinishButton.click, "WAF");
 	WAF.addListener("button3", "click", button3.click, "WAF");
 	WAF.addListener("button1", "click", button1.click, "WAF");
 	WAF.addListener("taskCreatedDataGrid", "onRowClick", taskCreatedDataGrid.onRowClick, "WAF");
