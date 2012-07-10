@@ -2,8 +2,10 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var menuItem4 = {};	// @menuItem
+	var imageButton1 = {};	// @buttonImage
+	var select7 = {};	// @select
 	var taskDetailOwnerSelect = {};	// @select
-	var taskStatusSelect = {};	// @select
 	var taskDetailUpdateButton = {};	// @button
 	var nextTaskImageButton = {};	// @buttonImage
 	var button9 = {};	// @button
@@ -41,6 +43,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
  pririotyArray = [];
  locationArray = [];
  statusArray = [];
+ currentUser = WAF.directory.currentUser();
  function validateEmail(emailToValidate) {
 	var pattern= new RegExp("^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$");// email matching regex
 	return pattern.test(emailToValidate);
@@ -51,11 +54,11 @@ function validatePhone(phoneToValidate) {
 	return pattern.test(strippedPhoneNumber);
 };
 function taskStatusAction(taskNextStatus) {
-	var taskPreviousStatus =  sources.task.status;// back status original status
-		if(confirm("Are you sure to set task as " + taskStatus + " ?")) {
-			$$("taskStatusSelect").setValue(taskNextStatus);
+	var taskPreviousStatus =   WAF.sources.task.status;// back status original status
+		if(confirm("Are you sure to set task as " + taskNextStatus + " ?")) {
+			$$("taskStatusFiled").setValue(taskNextStatus);
 			sources.task.status = taskNextStatus;
-			sources.task.save({
+			 WAF.sources.task.save({
 				onSuccess: function (event) {
 					WAF.sources.actions.newEntity();
 					WAF.sources.actions.actor.set(WAF.sources.user);
@@ -65,7 +68,6 @@ function taskStatusAction(taskNextStatus) {
 					WAF.sources.actions.comment = "Task " + taskNextStatus + " by: " + WAF.sources.user.fullName;
 					WAF.sources.actions.save();
 					WAF.sources.actions.serverRefresh();
-					//WAF.sources.actions.all();
 					$("#taskManageErrorDiv").html("Task has been updated");
 					$$("navigationView2").goToView(4);
 				},
@@ -75,36 +77,43 @@ function taskStatusAction(taskNextStatus) {
 			});
 		}
 		else {
-			$$("taskStatusSelect").setValue(taskPreviousStatus);
+			$$("taskStatusFiled").setValue(taskPreviousStatus);
 		}	
 	
 };
 // eventHandlers// @lock
 
+	menuItem4.click = function menuItem4_click (event)// @startlock
+	{// @endlock
+		$$("taskCreatedQeryField").setValue("from: " + currentUser.fullName + ", status: Completed");
+		sources.task.query("manager.fullName = :1 and status = :2",{params:[currentUser.fullName,"Completed"]});
+	};// @lock
+
+	imageButton1.click = function imageButton1_click (event)// @startlock
+	{// @endlock
+		var testString = "from: Xiang Liu, status: completed, priority:low";
+		var pattern = new RegExp("^(?:([a-z]*): ?([^$:]*), +)+([a-z]*): ?([^$:]*)$");
+		alert(testString.split(new RegExp(" ?, ?"))[0]);
+	};// @lock
+
+	select7.change = function select7_change (event)// @startlock
+	{// @endlock
+		sources.task.priority = $$("select7").sourceAtt.getValue();
+	};// @lock
+
 	taskDetailOwnerSelect.change = function taskDetailOwnerSelect_change (event)// @startlock
 	{// @endlock
 		//taskDetailOwnerSelect
-		var taskPreviousOwner = sources.task.owner.fullName;
+		var taskPreviousOwner =  WAF.sources.task.owner.fullName;
 		var taskNextOwner = $$("taskDetailOwnerSelect").sourceAtt.getValue();
-		if(confirm("Are you sure to set task owner to " + taskNextOwner + " ?")) {
-			sources.user1.query("fullName = :1",taskNextOwner);
+		sources.user1.query("fullName = :1",taskNextOwner);
+		if(confirm("Are you sure to set task owner to " +  WAF.sources.user1.fullName + " ?")) {
 			sources.task.owner.set(sources.user1);
 		}
 		else {
+			sources.user1.query("");
 			$$("taskDetailOwnerSelect").setValue(taskPreviousOwner);
 		}
-	};// @lock
-
-	taskStatusSelect.change = function taskStatusSelect_change (event)// @startlock
-	{// @endlock
-		var taskPreviousStatus = sources.task.status;// back status original status
-		var taskStatus = $$("taskStatusSelect").sourceAtt.getValue(); // get selected value
-		if(confirm("Are you sure to set task as " + taskStatus + " ?")) {
-			sources.task.status = taskStatus;
-		}
-		else {
-			$$("taskStatusSelect").setValue(taskPreviousStatus);
-		}	
 	};// @lock
 
 	taskDetailUpdateButton.click = function taskDetailUpdateButton_click (event)// @startlock
@@ -119,9 +128,9 @@ function taskStatusAction(taskNextStatus) {
 				WAF.sources.actions.comment = "Task updated by: " + WAF.sources.user.fullName;
 				WAF.sources.actions.save();
 				WAF.sources.actions.serverRefresh();
-				//WAF.sources.actions.all();
 				$("#taskManageErrorDiv").html("Task has been updated");
 				$$("navigationView2").goToView(4);
+				sources.user1.query("");//restore user1
 			},
 			onError: function(error) {
 				$("#taskUpdateErrorDiv").html(error['error'][0].message);
@@ -161,29 +170,29 @@ function taskStatusAction(taskNextStatus) {
 
 	menuItem2.click = function menuItem2_click (event)// @startlock
 	{// @endlock
-		$$("taskCreatedQeryField").setValue("from: " + WAF.directory.currentUser().fullName + " status: Open | Active");
-		sources.task.query("manager.fullName = :1 and status = :2 or status = :3",{params:[WAF.directory.currentUser().fullName,"Open","Active"]});
+		$$("taskCreatedQeryField").setValue("from: " + WAF.directory.currentUser().fullName + ", status: Open | Active");
+		sources.task.query("manager.fullName = :1 and status = :2 or status = :3",{params:[WAF.directory.currentUser().fullName,"Open","Active"]});// find open and active task from current user
 	};// @lock
 
 	menuItem1.click = function menuItem1_click (event)// @startlock
 	{// @endlock
-		$$("taskCreatedQeryField").setValue("to: " + WAF.directory.currentUser().fullName + " status: Open | Active");
-		sources.task.query("owner.fullName = :1 and status != :2 and status != :3",{params:[WAF.directory.currentUser().fullName,"Deleted","Canceled"]});
+		$$("taskCreatedQeryField").setValue("to: " + currentUser.fullName + ", status: Open | Active");
+		sources.task.query("owner.fullName = :1 and status = :2 or status = :3",{params:[currentUser.fullName,"Open","Active"]});// find open and active task to current user
 	};// @lock
 
 	taskFinishButton.click = function taskFinishButton_click (event)// @startlock
 	{// @endlock
-		$$("navigationView2").goToView(4);
+		taskStatusAction("Completed");
 	};// @lock
 
 	button3.click = function button3_click (event)// @startlock
 	{// @endlock
-		$$("navigationView2").goToView(4);
+		taskStatusAction("Canceled");
 	};// @lock
 
 	button1.click = function button1_click (event)// @startlock
 	{// @endlock
-		$$("navigationView2").goToView(4);
+		taskStatusAction("Deleted");
 	};// @lock
 
 	taskCreatedDataGrid.onRowClick = function taskCreatedDataGrid_onRowClick (event)// @startlock
@@ -191,7 +200,7 @@ function taskStatusAction(taskNextStatus) {
 		//WAF.sources.task.selectByKey(sources.taskCreated.getAttributeValue("ID"),{
 		//	onSuccess: function(event) {
 				$$("taskDetailOwnerSelect").setValue(sources.owner.getAttributeValue("fullName"));
-				$$("taskStatusSelect").setValue(sources.task.getAttributeValue("status"));  
+				$$("taskStatusFiled").setValue(sources.task.getAttributeValue("status"));  
 				$$("navigationView2").goToView(7);			//}
 		//});
 	};// @lock
@@ -215,7 +224,7 @@ function taskStatusAction(taskNextStatus) {
 		//WAF.sources.task.selectByKey(sources.taskOwned.getAttributeValue("ID"),{
 		//	onSuccess: function(event) {
 				$$("taskDetailOwnerSelect").setValue(sources.owner.getAttributeValue("fullName"));
-				$$("taskStatusSelect").setValue(sources.task.getAttributeValue("status"));     
+				$$("taskStatusFiled").setValue(sources.task.getAttributeValue("status"));     
 				$$("navigationView2").goToView(7);			//}
 		//});
 	};// @lock
@@ -361,8 +370,12 @@ function taskStatusAction(taskNextStatus) {
 	{// @endlock
 		//determine if their is a current user session
 		if (WAF.directory.currentUser() != null) {
+			
+			// set default query of the task inbox view
+			$$("taskCreatedQeryField").setValue("status: All");
+			sources.task.query("");
 			$$("navigationView2").goToView(4);
-			$("#signInIndicatorDiv").html( WAF.directory.currentUser().fullName);
+			$("#signInIndicatorDiv").html( currentUser.fullName);
 		}
 		
 		statusArray = [{status: "Open"},{status:"Active"},{status: "Completed"},{status:"Canceled"},{status: "Deleted"}];
@@ -373,6 +386,12 @@ function taskStatusAction(taskNextStatus) {
 		sources.pririotyArray.sync();
 		deptArray = [{deptName: ''}, {deptName: 'Tech'}, {deptName:'Management'},{deptName:'Operation'},{deptName:'Sales'},{deptName:'Marketing'}];
 		sources.deptArray.sync();
+		
+		//Disable fields that is not suppose to be changed by user
+		$("#taskStatusFiled").attr("disabled", true);
+		$("#taskManagerField").attr("disabled", true);
+		
+		
 	};// @lock
 
 	signUpConfirmPwField.blur = function signUpConfirmPwField_blur (event)// @startlock
@@ -396,7 +415,11 @@ function taskStatusAction(taskNextStatus) {
 			$("#signInIndicatorDiv").html( WAF.directory.currentUser().fullName);
 			$$("signInLogInField").setValue("");
 			$$("signInPasswordField").setValue("");	
-			sources.user.query("fullName = :1", WAF.directory.currentUser().fullName);// set user to current		
+			sources.user.query("fullName = :1", WAF.directory.currentUser().fullName);// set user to current
+			
+			// set default query of the task inbox view
+			$$("taskCreatedQeryField").setValue("to: " + WAF.directory.currentUser().fullName + " status: Open | Active");
+			sources.task.query("owner.fullName = :1 and status != :2 and status != :3",{params:[WAF.directory.currentUser().fullName,"Deleted","Canceled"]});		
 		} else {
 			//should limit times of invalid sign 
 			$("#loginErrorDiv").html("Invalid login.");
@@ -427,6 +450,7 @@ function taskStatusAction(taskNextStatus) {
 					$("#loginErrorDiv").html(event.result.message);
 					$("#signUperrDiv").html(event.result.message);
 					if (WAF.directory.currentUser() !== null) {
+						WAF.sources.user.all();
 						$$("navigationView2").goToView(2);
 						$$("signInLogInField").setValue("");
 						$$("signInPasswordField").setValue("");	
@@ -466,8 +490,10 @@ function taskStatusAction(taskNextStatus) {
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("menuItem4", "click", menuItem4.click, "WAF");
+	WAF.addListener("imageButton1", "click", imageButton1.click, "WAF");
+	WAF.addListener("select7", "change", select7.change, "WAF");
 	WAF.addListener("taskDetailOwnerSelect", "change", taskDetailOwnerSelect.change, "WAF");
-	WAF.addListener("taskStatusSelect", "change", taskStatusSelect.change, "WAF");
 	WAF.addListener("taskDetailUpdateButton", "click", taskDetailUpdateButton.click, "WAF");
 	WAF.addListener("nextTaskImageButton", "click", nextTaskImageButton.click, "WAF");
 	WAF.addListener("button9", "click", button9.click, "WAF");
