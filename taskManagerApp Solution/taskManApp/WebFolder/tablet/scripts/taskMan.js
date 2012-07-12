@@ -3,6 +3,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
 	var sortTaskRadioGroup = {};	// @radioGroup
+	var dataGrid3 = {};	// @dataGrid
 	var taskCreatedQeryField = {};	// @textField
 	var menuItem4 = {};	// @menuItem
 	var select7 = {};	// @select
@@ -87,7 +88,14 @@ function taskStatusAction(taskNextStatus) {
 
 	sortTaskRadioGroup.change = function sortTaskRadioGroup_change (event)// @startlock
 	{// @endlock
-		sources.task.orderBy();
+		sources.task.orderBy($$("sortTaskRadioGroup").getValue());
+	};// @lock
+
+	dataGrid3.onRowClick = function dataGrid3_onRowClick (event)// @startlock
+	{// @endlock
+		$$("taskDetailOwnerSelect").setValue(sources.owner.getAttributeValue("fullName"));
+		$$("taskStatusFiled").setValue(sources.task.getAttributeValue("status"));     
+		$$("navigationView2").goToView(7);	
 	};// @lock
 
 	taskCreatedQeryField.keyup = function taskCreatedQeryField_keyup (event)// @startlock
@@ -525,6 +533,7 @@ function taskStatusAction(taskNextStatus) {
 
 // @region eventManager// @startlock
 	WAF.addListener("sortTaskRadioGroup", "change", sortTaskRadioGroup.change, "WAF");
+	WAF.addListener("dataGrid3", "onRowClick", dataGrid3.onRowClick, "WAF");
 	WAF.addListener("taskCreatedQeryField", "keyup", taskCreatedQeryField.keyup, "WAF");
 	WAF.addListener("taskCreatedQeryField", "focus", taskCreatedQeryField.focus, "WAF");
 	WAF.addListener("taskCreatedQeryField", "blur", taskCreatedQeryField.blur, "WAF");
