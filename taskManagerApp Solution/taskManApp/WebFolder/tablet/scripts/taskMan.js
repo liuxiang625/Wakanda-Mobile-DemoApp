@@ -2,8 +2,9 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var sortTaskRadioGroup = {};	// @radioGroup
+	var taskCreatedQeryField = {};	// @textField
 	var menuItem4 = {};	// @menuItem
-	var imageButton1 = {};	// @buttonImage
 	var select7 = {};	// @select
 	var taskDetailOwnerSelect = {};	// @select
 	var taskDetailUpdateButton = {};	// @button
@@ -70,6 +71,7 @@ function taskStatusAction(taskNextStatus) {
 					WAF.sources.actions.serverRefresh();
 					$("#taskManageErrorDiv").html("Task has been updated");
 					$$("navigationView2").goToView(4);
+					$$("tabView1").selectTab(1); 
 				},
 				onError: function(error) {
 					$("#taskUpdateErrorDiv").html(error['error'][0].message);
@@ -83,17 +85,41 @@ function taskStatusAction(taskNextStatus) {
 };
 // eventHandlers// @lock
 
-	menuItem4.click = function menuItem4_click (event)// @startlock
+	sortTaskRadioGroup.change = function sortTaskRadioGroup_change (event)// @startlock
 	{// @endlock
-		$$("taskCreatedQeryField").setValue("from: " + currentUser.fullName + ", status: Completed");
-		sources.task.query("manager.fullName = :1 and status = :2",{params:[currentUser.fullName,"Completed"]});
+		sources.task.orderBy();
 	};// @lock
 
-	imageButton1.click = function imageButton1_click (event)// @startlock
+	taskCreatedQeryField.keyup = function taskCreatedQeryField_keyup (event)// @startlock
 	{// @endlock
-		var testString = "from: Xiang Liu, status: completed, priority:low";
-		var pattern = new RegExp("^(?:([a-z]*): ?([^$:]*), +)+([a-z]*): ?([^$:]*)$");
-		alert(testString.split(new RegExp(" ?, ?"))[0]);
+		var stringTest = $$("taskCreatedQeryField").getValue();
+		if (stringTest == "") {
+			sources.task.query("");
+		}
+		else {
+			sources.task.query("title = :1 or description = :2",{params:["*" + stringTest + "*","*" + stringTest + "*"]}); 
+		}
+	};// @lock
+
+	taskCreatedQeryField.focus = function taskCreatedQeryField_focus (event)// @startlock
+	{// @endlock
+		$$("taskCreatedQeryField").setValue("");
+		$$("taskCreatedQeryField").setTextColor("#000000");
+	};// @lock
+
+	taskCreatedQeryField.blur = function taskCreatedQeryField_blur (event)// @startlock
+	{// @endlock
+		if ($$("taskCreatedQeryField").getValue() == ""){
+			$$("taskCreatedQeryField").setValue("Search Task Title or Description");
+			$$("taskCreatedQeryField").setTextColor("#b2b2b2");
+			sources.task.query("");
+		}
+	};// @lock
+
+	menuItem4.click = function menuItem4_click (event)// @startlock
+	{// @endlock
+		//$$("taskCreatedQeryField").setValue("from: " + currentUser.fullName + ", status: Completed");
+		sources.task.query("manager.fullName = :1 and status = :2",{params:[currentUser.fullName,"Completed"]});
 	};// @lock
 
 	select7.change = function select7_change (event)// @startlock
@@ -127,9 +153,11 @@ function taskStatusAction(taskNextStatus) {
 				WAF.sources.actions.name = "Updated";
 				WAF.sources.actions.comment = "Task updated by: " + WAF.sources.user.fullName;
 				WAF.sources.actions.save();
+				WAF.source.actions.addEntity(sources.actions.getCurrentElement);
 				WAF.sources.actions.serverRefresh();
 				$("#taskManageErrorDiv").html("Task has been updated");
 				$$("navigationView2").goToView(4);
+				$$("tabView1").selectTab(1); 
 				sources.user1.query("");//restore user1
 			},
 			onError: function(error) {
@@ -164,19 +192,19 @@ function taskStatusAction(taskNextStatus) {
 
 	menuItem3.click = function menuItem3_click (event)// @startlock
 	{// @endlock
-		$$("taskCreatedQeryField").setValue("status: All");
+		//$$("taskCreatedQeryField").setValue("status: All");
 		sources.task.query("");
 	};// @lock
 
 	menuItem2.click = function menuItem2_click (event)// @startlock
 	{// @endlock
-		$$("taskCreatedQeryField").setValue("from: " + WAF.directory.currentUser().fullName + ", status: Open | Active");
+		//$$("taskCreatedQeryField").setValue("from: " + WAF.directory.currentUser().fullName + ", status: Open | Active");
 		sources.task.query("manager.fullName = :1 and status = :2 or status = :3",{params:[WAF.directory.currentUser().fullName,"Open","Active"]});// find open and active task from current user
 	};// @lock
 
 	menuItem1.click = function menuItem1_click (event)// @startlock
 	{// @endlock
-		$$("taskCreatedQeryField").setValue("to: " + currentUser.fullName + ", status: Open | Active");
+		//$$("taskCreatedQeryField").setValue("to: " + currentUser.fullName + ", status: Open | Active");
 		sources.task.query("owner.fullName = :1 and status = :2 or status = :3",{params:[currentUser.fullName,"Open","Active"]});// find open and active task to current user
 	};// @lock
 
@@ -210,6 +238,7 @@ function taskStatusAction(taskNextStatus) {
 		sources.task.all({
 			onSuccess: function(event) {
 				$$("navigationView2").goToView(4);
+				$$("tabView1").selectTab(1); 
 				//$("#taskManageErrorDiv").html("Task update canceled");
 			},
 			onError: function(error) {
@@ -270,6 +299,7 @@ function taskStatusAction(taskNextStatus) {
 	button2.click = function button2_click (event)// @startlock
 	{// @endlock
 		$$("navigationView2").goToView(4);
+		$$("tabView1").selectTab(1); 
 	};// @lock
 
 	profileSaveButton.click = function profileSaveButton_click (event)// @startlock
@@ -321,6 +351,7 @@ function taskStatusAction(taskNextStatus) {
 				//sources.task.addEntity(sources.taskCreated.getCurrentElement());
 				sources.user.all(); 
 				$$("navigationView2").goToView(4);
+				$$("tabView1").selectTab(1); 
 				$("#taskManageErrorDiv").html("New Task Saved.");
 				WAF.sources.actions.newEntity();
 				WAF.sources.actions.actor.set(WAF.sources.user);
@@ -342,6 +373,7 @@ function taskStatusAction(taskNextStatus) {
 		sources.task.all({
 			onSuccess: function(event) {
 				$$("navigationView2").goToView(4);
+				$$("tabView1").selectTab(1); 
 				$("#taskManageErrorDiv").html("Task creation canceled");
 			},
 			onError: function(error) {
@@ -372,9 +404,10 @@ function taskStatusAction(taskNextStatus) {
 		if (WAF.directory.currentUser() != null) {
 			
 			// set default query of the task inbox view
-			$$("taskCreatedQeryField").setValue("status: All");
+			//$$("taskCreatedQeryField").setValue("status: All");
 			sources.task.query("");
 			$$("navigationView2").goToView(4);
+			$$("tabView1").selectTab(1); 
 			$("#signInIndicatorDiv").html( currentUser.fullName);
 		}
 		
@@ -412,14 +445,15 @@ function taskStatusAction(taskNextStatus) {
 		var thePassword = $$("signInPasswordField").getValue();
 		if (WAF.directory.loginByPassword(loginName, thePassword)) {
 			$$("navigationView2").goToView(4);
+			$$("tabView1").selectTab(1); 
 			$("#signInIndicatorDiv").html( WAF.directory.currentUser().fullName);
 			$$("signInLogInField").setValue("");
 			$$("signInPasswordField").setValue("");	
 			sources.user.query("fullName = :1", WAF.directory.currentUser().fullName);// set user to current
 			
 			// set default query of the task inbox view
-			$$("taskCreatedQeryField").setValue("to: " + WAF.directory.currentUser().fullName + " status: Open | Active");
-			sources.task.query("owner.fullName = :1 and status != :2 and status != :3",{params:[WAF.directory.currentUser().fullName,"Deleted","Canceled"]});		
+			//$$("taskCreatedQeryField").setValue("to: " + WAF.directory.currentUser().fullName + " status: Open | Active");
+			sources.task.query("");		
 		} else {
 			//should limit times of invalid sign 
 			$("#loginErrorDiv").html("Invalid login.");
@@ -490,8 +524,11 @@ function taskStatusAction(taskNextStatus) {
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("sortTaskRadioGroup", "change", sortTaskRadioGroup.change, "WAF");
+	WAF.addListener("taskCreatedQeryField", "keyup", taskCreatedQeryField.keyup, "WAF");
+	WAF.addListener("taskCreatedQeryField", "focus", taskCreatedQeryField.focus, "WAF");
+	WAF.addListener("taskCreatedQeryField", "blur", taskCreatedQeryField.blur, "WAF");
 	WAF.addListener("menuItem4", "click", menuItem4.click, "WAF");
-	WAF.addListener("imageButton1", "click", imageButton1.click, "WAF");
 	WAF.addListener("select7", "change", select7.change, "WAF");
 	WAF.addListener("taskDetailOwnerSelect", "change", taskDetailOwnerSelect.change, "WAF");
 	WAF.addListener("taskDetailUpdateButton", "click", taskDetailUpdateButton.click, "WAF");
