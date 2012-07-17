@@ -111,17 +111,17 @@ function taskStatusAction(taskNextStatus) {
 
 	taskCreatedQeryField.focus = function taskCreatedQeryField_focus (event)// @startlock
 	{// @endlock
-		$$("taskCreatedQeryField").setValue("");
-		$$("taskCreatedQeryField").setTextColor("#000000");
+//		$$("taskCreatedQeryField").setValue("");
+//		$$("taskCreatedQeryField").setTextColor("#000000");
 	};// @lock
 
 	taskCreatedQeryField.blur = function taskCreatedQeryField_blur (event)// @startlock
 	{// @endlock
-		if ($$("taskCreatedQeryField").getValue() == ""){
-			$$("taskCreatedQeryField").setValue("Search Task Title or Description");
-			$$("taskCreatedQeryField").setTextColor("#b2b2b2");
-			sources.task.query("");
-		}
+//		if ($$("taskCreatedQeryField").getValue() == ""){
+//			$$("taskCreatedQeryField").setValue("Search Task Title or Description");
+//			$$("taskCreatedQeryField").setTextColor("#b2b2b2");
+//			sources.task.query("");
+//		}
 	};// @lock
 
 	menuItem4.click = function menuItem4_click (event)// @startlock
@@ -432,6 +432,9 @@ function taskStatusAction(taskNextStatus) {
 		$("#taskStatusFiled").attr("disabled", true);
 		$("#taskManagerField").attr("disabled", true);
 		
+		var picker = $$('newTaskStartDateField').$domNode;
+		//picker.datepicker( "option", "maxDate", +10 );
+		picker.datepicker( "option", "minDate", 0 );
 		
 	};// @lock
 
@@ -483,7 +486,7 @@ function taskStatusAction(taskNextStatus) {
 			role: WAF.sources.signUpObject.role
 							
 		};
-		if(!signUpData.logIn  | !signUpData.password | !signUpData.fullName | !$$("signUpConfirmPwField").getValue() ) {
+		if(!signUpData.logIn  | !signUpData.password | !signUpData.fullName | !signUpData.email |!$$("signUpConfirmPwField").getValue() ) {
 			$("#signUperrDiv").html("Please fill all the required fileds");
 		}
 		else {
