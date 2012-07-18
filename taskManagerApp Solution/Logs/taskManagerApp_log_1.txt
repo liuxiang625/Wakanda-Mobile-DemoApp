@@ -2626,3 +2626,193 @@
 2012-07-17 10:54:06 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Executing the bootstrap(s)
 2012-07-17 10:54:06 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Bootstrap(s) executed (duration: 7 ms)
 2012-07-17 10:54:06 [com.wakanda-software.taskManagerApp] INFO - Solution started (duration: 72 ms)
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp] INFO - Opening the solution
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp] INFO - Opening the users and groups directory
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp] INFO - Users and groups directory opened (duration: 9 ms)
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Opening the project
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Opening the database
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Database opened (duration: 6 ms)
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Project opened (duration: 10 ms)
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Opening the project
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Project opened (duration: 1 ms)
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp] INFO - Solution opened (duration: 45 ms)
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp] INFO - Starting the solution
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Starting the project
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Starting the HTTP server
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp.taskManApp] INFO - HTTP server started (duration: 13 ms)
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Project started (duration: 33 ms)
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Starting the project
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Starting the HTTP server
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - HTTP server started (duration: 10 ms)
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Project started (duration: 30 ms)
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Executing the bootstrap(s)
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Bootstrap(s) executed (duration: 2 ms)
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Executing the bootstrap(s)
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Bootstrap(s) executed (duration: 6 ms)
+2012-07-17 16:48:12 [com.wakanda-software.taskManagerApp] INFO - Solution started (duration: 73 ms)
+2012-07-17 17:15:34 [com.wakanda-software.taskManagerApp] INFO - Stopping the solution
+2012-07-17 17:15:34 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Stopping the project
+2012-07-17 17:15:36 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Project stopped (duration: 2034 ms)
+2012-07-17 17:15:36 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Stopping the project
+2012-07-17 17:15:38 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Project stopped (duration: 2018 ms)
+2012-07-17 17:15:38 [com.wakanda-software.taskManagerApp] INFO - Solution stopped (duration: 4053 ms)
+2012-07-17 17:15:38 [com.wakanda-software.taskManagerApp] INFO - Closing the solution
+2012-07-17 17:15:38 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Closing the project
+2012-07-17 17:15:38 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Closing the database
+2012-07-17 17:15:38 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Database closed (duration: 408 ms)
+2012-07-17 17:15:38 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Project closed (duration: 411 ms)
+2012-07-17 17:15:38 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Closing the project
+2012-07-17 17:15:38 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Project closed (duration: 2 ms)
+2012-07-17 17:15:38 [com.wakanda-software.taskManagerApp] INFO - Solution closed (duration: 818 ms)
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp] INFO - Opening the solution
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp] INFO - Opening the users and groups directory
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp] INFO - Users and groups directory opened (duration: 11 ms)
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Opening the project
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Opening the database
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Database opened (duration: 5 ms)
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Project opened (duration: 10 ms)
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Opening the project
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Project opened (duration: 1 ms)
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp] INFO - Solution opened (duration: 48 ms)
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp] INFO - Starting the solution
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Starting the project
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Starting the HTTP server
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp.taskManApp] INFO - HTTP server started (duration: 13 ms)
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Project started (duration: 32 ms)
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Starting the project
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Starting the HTTP server
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - HTTP server started (duration: 15 ms)
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Project started (duration: 31 ms)
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Executing the bootstrap(s)
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Bootstrap(s) executed (duration: 3 ms)
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Executing the bootstrap(s)
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Bootstrap(s) executed (duration: 4 ms)
+2012-07-17 17:15:58 [com.wakanda-software.taskManagerApp] INFO - Solution started (duration: 72 ms)
+2012-07-17 17:16:54 [com.wakanda-software.taskManagerApp] INFO - Stopping the solution
+2012-07-17 17:16:54 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Stopping the project
+2012-07-17 17:16:56 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Project stopped (duration: 2038 ms)
+2012-07-17 17:16:56 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Stopping the project
+2012-07-17 17:16:58 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Project stopped (duration: 2019 ms)
+2012-07-17 17:16:58 [com.wakanda-software.taskManagerApp] INFO - Solution stopped (duration: 4057 ms)
+2012-07-17 17:16:58 [com.wakanda-software.taskManagerApp] INFO - Closing the solution
+2012-07-17 17:16:58 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Closing the project
+2012-07-17 17:16:58 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Closing the database
+2012-07-17 17:16:58 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Database closed (duration: 409 ms)
+2012-07-17 17:16:58 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Project closed (duration: 411 ms)
+2012-07-17 17:16:58 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Closing the project
+2012-07-17 17:16:58 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Project closed (duration: 2 ms)
+2012-07-17 17:16:59 [com.wakanda-software.taskManagerApp] INFO - Solution closed (duration: 818 ms)
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp] INFO - Opening the solution
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp] INFO - Opening the users and groups directory
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp] INFO - Users and groups directory opened (duration: 10 ms)
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Opening the project
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Opening the database
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Database opened (duration: 5 ms)
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Project opened (duration: 10 ms)
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Opening the project
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Project opened (duration: 2 ms)
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp] INFO - Solution opened (duration: 47 ms)
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp] INFO - Starting the solution
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Starting the project
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Starting the HTTP server
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp.taskManApp] INFO - HTTP server started (duration: 17 ms)
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Project started (duration: 36 ms)
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Starting the project
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Starting the HTTP server
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - HTTP server started (duration: 11 ms)
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Project started (duration: 29 ms)
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Executing the bootstrap(s)
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Bootstrap(s) executed (duration: 3 ms)
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Executing the bootstrap(s)
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Bootstrap(s) executed (duration: 5 ms)
+2012-07-17 17:18:11 [com.wakanda-software.taskManagerApp] INFO - Solution started (duration: 75 ms)
+2012-07-17 18:05:56 [com.wakanda-software.taskManagerApp] INFO - Stopping the solution
+2012-07-17 18:05:56 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Stopping the project
+2012-07-17 18:05:58 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Project stopped (duration: 2029 ms)
+2012-07-17 18:05:58 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Stopping the project
+2012-07-17 18:06:00 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Project stopped (duration: 2019 ms)
+2012-07-17 18:06:00 [com.wakanda-software.taskManagerApp] INFO - Solution stopped (duration: 4049 ms)
+2012-07-17 18:06:00 [com.wakanda-software.taskManagerApp] INFO - Closing the solution
+2012-07-17 18:06:00 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Closing the project
+2012-07-17 18:06:00 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Closing the database
+2012-07-17 18:06:00 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Database closed (duration: 407 ms)
+2012-07-17 18:06:00 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Project closed (duration: 410 ms)
+2012-07-17 18:06:00 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Closing the project
+2012-07-17 18:06:00 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Project closed (duration: 2 ms)
+2012-07-17 18:06:00 [com.wakanda-software.taskManagerApp] INFO - Solution closed (duration: 816 ms)
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp] INFO - Opening the solution
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp] INFO - Opening the users and groups directory
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp] INFO - Users and groups directory opened (duration: 48 ms)
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Opening the project
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Opening the database
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Database opened (duration: 18 ms)
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Project opened (duration: 28 ms)
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Opening the project
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Project opened (duration: 1 ms)
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp] INFO - Solution opened (duration: 109 ms)
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp] INFO - Starting the solution
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Starting the project
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Starting the HTTP server
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp.taskManApp] INFO - HTTP server started (duration: 13 ms)
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Project started (duration: 36 ms)
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Starting the project
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Starting the HTTP server
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - HTTP server started (duration: 11 ms)
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Project started (duration: 27 ms)
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Executing the bootstrap(s)
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Bootstrap(s) executed (duration: 3 ms)
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Executing the bootstrap(s)
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Bootstrap(s) executed (duration: 5 ms)
+2012-07-18 10:25:03 [com.wakanda-software.taskManagerApp] INFO - Solution started (duration: 73 ms)
+2012-07-18 10:26:03 [com.wakanda-software.taskManagerApp] INFO - Stopping the solution
+2012-07-18 10:26:03 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Stopping the project
+2012-07-18 10:26:05 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Project stopped (duration: 2040 ms)
+2012-07-18 10:26:05 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Stopping the project
+2012-07-18 10:26:07 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Project stopped (duration: 2020 ms)
+2012-07-18 10:26:07 [com.wakanda-software.taskManagerApp] INFO - Solution stopped (duration: 4061 ms)
+2012-07-18 10:26:07 [com.wakanda-software.taskManagerApp] INFO - Closing the solution
+2012-07-18 10:26:07 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Closing the project
+2012-07-18 10:26:07 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Closing the database
+2012-07-18 10:26:07 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Database closed (duration: 308 ms)
+2012-07-18 10:26:07 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Project closed (duration: 308 ms)
+2012-07-18 10:26:07 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Closing the project
+2012-07-18 10:26:07 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Project closed (duration: 3 ms)
+2012-07-18 10:26:07 [com.wakanda-software.taskManagerApp] INFO - Solution closed (duration: 628 ms)
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp] INFO - Opening the solution
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp] INFO - Opening the users and groups directory
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp] INFO - Users and groups directory opened (duration: 10 ms)
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Opening the project
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Opening the database
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Database opened (duration: 6 ms)
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Project opened (duration: 11 ms)
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Opening the project
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Project opened (duration: 1 ms)
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp] INFO - Solution opened (duration: 46 ms)
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp] INFO - Starting the solution
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Starting the project
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Starting the HTTP server
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp.taskManApp] INFO - HTTP server started (duration: 12 ms)
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Project started (duration: 31 ms)
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Starting the project
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Starting the HTTP server
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - HTTP server started (duration: 11 ms)
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Project started (duration: 26 ms)
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Executing the bootstrap(s)
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Bootstrap(s) executed (duration: 3 ms)
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Executing the bootstrap(s)
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Bootstrap(s) executed (duration: 4 ms)
+2012-07-18 10:29:36 [com.wakanda-software.taskManagerApp] INFO - Solution started (duration: 65 ms)
+2012-07-18 10:44:41 [com.wakanda-software.taskManagerApp] INFO - Stopping the solution
+2012-07-18 10:44:41 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Stopping the project
+2012-07-18 10:44:43 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Project stopped (duration: 2037 ms)
+2012-07-18 10:44:43 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Stopping the project
+2012-07-18 10:44:45 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Project stopped (duration: 2026 ms)
+2012-07-18 10:44:45 [com.wakanda-software.taskManagerApp] INFO - Solution stopped (duration: 4064 ms)
+2012-07-18 10:44:45 [com.wakanda-software.taskManagerApp] INFO - Closing the solution
+2012-07-18 10:44:45 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Closing the project
+2012-07-18 10:44:45 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Closing the database
+2012-07-18 10:44:45 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Database closed (duration: 407 ms)
+2012-07-18 10:44:45 [com.wakanda-software.taskManagerApp.taskManApp] INFO - Project closed (duration: 409 ms)
+2012-07-18 10:44:45 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Closing the project
+2012-07-18 10:44:45 [com.wakanda-software.taskManagerApp.ServerAdmin] INFO - Project closed (duration: 2 ms)
+2012-07-18 10:44:46 [com.wakanda-software.taskManagerApp] INFO - Solution closed (duration: 815 ms)

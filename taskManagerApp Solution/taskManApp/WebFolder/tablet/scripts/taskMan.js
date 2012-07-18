@@ -356,7 +356,7 @@ function taskStatusAction(taskNextStatus) {
 		WAF.sources.task.status = "Active";
 		WAF.sources.task.save({
 			onSuccess: function(event) {
-				//sources.task.addEntity(sources.taskCreated.getCurrentElement());
+				sources.task.addEntity(sources.task.getCurrentElement());
 				sources.user.all(); 
 				$$("navigationView2").goToView(4);
 				$$("tabView1").selectTab(1); 
@@ -432,9 +432,9 @@ function taskStatusAction(taskNextStatus) {
 		$("#taskStatusFiled").attr("disabled", true);
 		$("#taskManagerField").attr("disabled", true);
 		
-		var picker = $$('newTaskStartDateField').$domNode;
+		//var picker = $$('newTaskStartDateField').$domNode;
 		//picker.datepicker( "option", "maxDate", +10 );
-		picker.datepicker( "option", "minDate", 0 );
+		//picker.datepicker( "option", "minDate", 0 );
 		
 	};// @lock
 

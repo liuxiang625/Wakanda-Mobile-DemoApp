@@ -57,9 +57,9 @@
 
 #navigationView2 #view-manager2 #view7 #header7 #title7 {
 	 top: 0px;
-	 bottom: -21px;
+	 bottom: -22px;
 	 left: 0px;
-	 right: -40px;
+	 right: -42px;
 	
 	 position: absolute;
 	 
@@ -177,9 +177,9 @@
 
 #navigationView2 #view-manager2 #view10 #header10 #title10 {
 	 top: 0px;
-	 bottom: -28px;
+	 bottom: -29px;
 	 left: 0px;
-	 right: -54px;
+	 right: -56px;
 	
 	 position: absolute;
 	 
@@ -974,16 +974,6 @@
 	 height: 15px;
 	 top: 283px;
 	 left: 405px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view11 #body11 #label54 {
-	 width: 55px;
-	 height: 15px;
-	 top: 266px;
-	 left: 708px;
 	
 	 position: absolute;
 	 
@@ -2515,11 +2505,15 @@
 }
 
 #navigationView2 #view-manager2 #view13 #body13 #label235 {
+	 width: 56px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
 	 width: 35px;
 	 height: 15px;
 	 top: 68px;
 	 left: 627px;
-	
 	 position: absolute;
 	 
 }
@@ -2580,6 +2574,10 @@
 	 top: 163px;
 	 left: 630px;
 	
+	 width: 57px;
+	 height: 15px;
+	 top: 163px;
+	 left: 630px;
 	 position: absolute;
 	 
 }
@@ -2590,6 +2588,10 @@
 	 top: 163px;
 	 left: 819px;
 	
+	 width: 55px;
+	 height: 15px;
+	 top: 163px;
+	 left: 819px;
 	 position: absolute;
 	 
 }
@@ -2600,36 +2602,24 @@
 	 top: 264px;
 	 left: 82px;
 	
+	 width: 96px;
+	 height: 15px;
+	 top: 264px;
+	 left: 82px;
 	 position: absolute;
 	 
 }
 
 #navigationView2 #view-manager2 #view13 #body13 #label239 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label242 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label243 {
 	 width: 35px;
 	 height: 15px;
 	 top: 68px;
 	 left: 627px;
 	
+	 width: 83px;
+	 height: 15px;
+	 top: 501px;
+	 left: 79px;
 	 position: absolute;
 	 
 }
@@ -2679,86 +2669,6 @@
 	 height: 15px;
 	 top: 68px;
 	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label240 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label241 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label244 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label245 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label246 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label247 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label250 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label251 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
 	
 	 position: absolute;
 	 
@@ -2814,86 +2724,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view13 #body13 #label248 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label249 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label252 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label253 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label254 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label255 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label258 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label259 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view9 #body9 #label36 {
 	 width: 50px;
 	 height: 15px;
@@ -2939,86 +2769,6 @@
 	 height: 15px;
 	 top: 68px;
 	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label256 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label257 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label260 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label261 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label262 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label263 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label266 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label267 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
 	
 	 position: absolute;
 	 
@@ -3074,106 +2824,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view13 #body13 #label264 {
-	 width: 51px;
-	 height: 15px;
-	 top: 163px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label265 {
-	 width: 37px;
-	 height: 15px;
-	 top: 68px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label268 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label269 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label270 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label271 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label272 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label273 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label276 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label277 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view9 #body9 #label38 {
 	 width: 50px;
 	 height: 15px;
@@ -3219,86 +2869,6 @@
 	 height: 15px;
 	 top: 68px;
 	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label274 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label275 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label278 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label279 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label280 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label281 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label284 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label285 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
 	
 	 position: absolute;
 	 
@@ -3381,86 +2951,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view13 #body13 #label282 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label283 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label286 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label287 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label288 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label289 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label292 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label293 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view10 #body10 #container5 #container7 #taskCreatedQeryField {
 	 width: 316px;
 	 height: 37px;
@@ -3523,86 +3013,6 @@
 	 height: 15px;
 	 top: 68px;
 	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label290 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label291 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label294 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label295 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label296 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label297 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label300 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label301 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
 	
 	 position: absolute;
 	 
@@ -3674,86 +3084,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view13 #body13 #label298 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label299 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label303 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label304 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label305 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label306 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label309 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label310 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view9 #body9 #label42 {
 	 width: 50px;
 	 height: 15px;
@@ -3799,86 +3129,6 @@
 	 height: 15px;
 	 top: 68px;
 	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label307 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label308 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label311 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label312 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label313 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label314 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label317 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label318 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
 	
 	 position: absolute;
 	 
@@ -3954,86 +3204,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view13 #body13 #label315 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label316 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label319 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label320 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label321 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label322 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label325 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label326 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view10 #body10 #container5 #label327 {
 	 width: 41px;
 	 height: 15px;
@@ -4089,86 +3259,6 @@
 	 height: 15px;
 	 top: 68px;
 	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label302 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label323 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label324 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label328 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label329 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label330 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label333 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label334 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
 	
 	 position: absolute;
 	 
@@ -4234,86 +3324,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view13 #body13 #label331 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label332 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label335 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label336 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label337 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label338 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label341 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label342 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view9 #body9 #label46 {
 	 width: 50px;
 	 height: 15px;
@@ -4359,86 +3369,6 @@
 	 height: 15px;
 	 top: 68px;
 	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label339 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label340 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label343 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label344 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label345 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label346 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label349 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label350 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
 	
 	 position: absolute;
 	 
@@ -4494,86 +3424,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view13 #body13 #label347 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label348 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label351 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label352 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label353 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label354 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label357 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label358 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view9 #body9 #label49 {
 	 width: 50px;
 	 height: 15px;
@@ -4624,86 +3474,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view13 #body13 #label355 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label356 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label359 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label360 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label361 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label362 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label365 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label366 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view9 #body9 #label1 {
 	 width: 50px;
 	 height: 15px;
@@ -4714,141 +3484,11 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view13 #body13 #label363 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label364 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label367 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label370 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label371 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view9 #body9 #label2 {
 	 width: 50px;
 	 height: 15px;
 	 top: 283px;
 	 left: 405px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label368 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label369 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label372 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label373 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label374 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label375 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label378 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label379 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
 	
 	 position: absolute;
 	 
@@ -4904,86 +3544,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view13 #body13 #label376 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label377 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label380 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label381 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label382 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label383 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label386 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label387 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view9 #body9 #label4 {
 	 width: 50px;
 	 height: 15px;
@@ -5034,96 +3594,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view13 #body13 #label384 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label385 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label388 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label389 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label390 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label391 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label394 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label395 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
-	
-	 position: absolute;
-	 
-}
-
-#label154 {
-	 width: 75px;
-	 height: 22px;
-	 top: auto;
-	 left: auto;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view9 #body9 #label5 {
 	 width: 50px;
 	 height: 15px;
@@ -5169,86 +3639,6 @@
 	 height: 15px;
 	 top: 68px;
 	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label392 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label393 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label396 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label397 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label398 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label399 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label402 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label403 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
 	
 	 position: absolute;
 	 
@@ -5309,86 +3699,6 @@
 	 height: 15px;
 	 top: 345px;
 	 left: 787px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label400 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label401 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label404 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label405 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label406 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label407 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label410 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label411 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
 	
 	 position: absolute;
 	 
@@ -5464,86 +3774,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view13 #body13 #label408 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label409 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label412 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label413 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label414 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label415 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label418 {
-	 width: 116px;
-	 height: 15px;
-	 top: 367px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label419 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view9 #body9 #signUpPhoneNumField {
 	 width: 209px;
 	 height: 44px;
@@ -5585,76 +3815,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view13 #body13 #label416 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label417 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label420 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label421 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label422 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label423 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label427 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view9 #body9 #label9 {
 	 width: 50px;
 	 height: 15px;
@@ -5670,56 +3830,6 @@
 	 height: 15px;
 	 top: 266px;
 	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label424 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label425 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label426 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label428 {
-	 width: 83px;
-	 height: 15px;
-	 top: 501px;
-	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label431 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
 	
 	 position: absolute;
 	 
@@ -5745,52 +3855,44 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view13 #body13 #label228 {
-	 width: 57px;
+#navigationView2 #view-manager2 #view13 #body13 #label229 {
+	 width: 51px;
 	 height: 15px;
 	 top: 163px;
-	 left: 630px;
+	 left: 82px;
 	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label229 {
 	 width: 55px;
 	 height: 15px;
 	 top: 163px;
 	 left: 819px;
-	
 	 position: absolute;
 	 
 }
 
 #navigationView2 #view-manager2 #view13 #body13 #label230 {
+	 width: 37px;
+	 height: 15px;
+	 top: 68px;
+	 left: 819px;
+	
 	 width: 96px;
 	 height: 15px;
 	 top: 264px;
 	 left: 82px;
-	
 	 position: absolute;
 	 
 }
 
 #navigationView2 #view-manager2 #view13 #body13 #label231 {
+	 width: 68px;
+	 height: 15px;
+	 top: 163px;
+	 left: 355px;
+	
 	 width: 83px;
 	 height: 15px;
 	 top: 501px;
 	 left: 79px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label432 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
-	
 	 position: absolute;
 	 
 }
@@ -5825,66 +3927,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view13 #body13 #label429 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label430 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label433 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label434 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label435 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label439 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view9 #body9 #label52 {
 	 width: 50px;
 	 height: 15px;
@@ -5910,66 +3952,6 @@
 	 height: 15px;
 	 top: 345px;
 	 left: 787px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label436 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label437 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label438 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label440 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label441 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label444 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
 	
 	 position: absolute;
 	 
@@ -6064,56 +4046,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view13 #body13 #label442 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label443 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label445 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label446 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label447 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view13 #body13 #previuosTaskImageButton #label448 {
 	 width: 50px;
 	 height: 15px;
@@ -6134,11 +4066,35 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view13 #body13 #label450 {
-	 width: 35px;
+#navigationView2 #view-manager2 #view9 #body9 #label54 {
+	 width: 50px;
 	 height: 15px;
-	 top: 68px;
-	 left: 627px;
+	 top: 283px;
+	 left: 405px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label154 {
+	 width: 54px;
+	 height: 15px;
+	 top: 266px;
+	 left: 80px;
+	
+	 width: 75px;
+	 height: 22px;
+	 top: auto;
+	 left: auto;
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #label228 {
+	 width: 47px;
+	 height: 15px;
+	 top: 345px;
+	 left: 787px;
 	
 	 position: absolute;
 	 
