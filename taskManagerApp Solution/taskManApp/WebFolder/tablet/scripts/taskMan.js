@@ -2,6 +2,7 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var profileLocationtSelcet = {};	// @select
 	var sortTaskRadioGroup = {};	// @radioGroup
 	var dataGrid3 = {};	// @dataGrid
 	var taskCreatedQeryField = {};	// @textField
@@ -85,6 +86,11 @@ function taskStatusAction(taskNextStatus) {
 	
 };
 // eventHandlers// @lock
+
+	profileLocationtSelcet.change = function profileLocationtSelcet_change (event)// @startlock
+	{// @endlock
+		// Add your code here
+	};// @lock
 
 	sortTaskRadioGroup.change = function sortTaskRadioGroup_change (event)// @startlock
 	{// @endlock
@@ -489,6 +495,9 @@ function taskStatusAction(taskNextStatus) {
 		if(!signUpData.logIn  | !signUpData.password | !signUpData.fullName | !signUpData.email |!$$("signUpConfirmPwField").getValue() ) {
 			$("#signUperrDiv").html("Please fill all the required fileds");
 		}
+		else if (!validatePhone( $$("signUpPhoneNumField").getValue()) | !validatePhone( $$("signUpFaxNumField").getValue()) | !validateEmail($$("signUpEmailNumField").getValue())) {
+			$("#signUperrDiv").html("Please input Phone/Fax/Email values");
+		}
 		else {
 			WAF.ds.User.addUser({
 				onSuccess: function(event) {
@@ -535,6 +544,7 @@ function taskStatusAction(taskNextStatus) {
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("profileLocationtSelcet", "change", profileLocationtSelcet.change, "WAF");
 	WAF.addListener("sortTaskRadioGroup", "change", sortTaskRadioGroup.change, "WAF");
 	WAF.addListener("dataGrid3", "onRowClick", dataGrid3.onRowClick, "WAF");
 	WAF.addListener("taskCreatedQeryField", "keyup", taskCreatedQeryField.keyup, "WAF");
