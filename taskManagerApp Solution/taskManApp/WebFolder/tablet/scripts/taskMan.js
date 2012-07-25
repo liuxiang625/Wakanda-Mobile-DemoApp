@@ -46,7 +46,6 @@ WAF.onAfterInit = function onAfterInit() {// @lock
  pririotyArray = [];
  locationArray = [];
  statusArray = [];
- currentUser = WAF.directory.currentUser();
  function validateEmail(emailToValidate) {
 	var pattern= new RegExp("^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$");// email matching regex
 	return pattern.test(emailToValidate);
@@ -133,7 +132,7 @@ function taskStatusAction(taskNextStatus) {
 	menuItem4.click = function menuItem4_click (event)// @startlock
 	{// @endlock
 		//$$("taskCreatedQeryField").setValue("from: " + currentUser.fullName + ", status: Completed");
-		sources.task.query("manager.fullName = :1 and status = :2",{params:[currentUser.fullName,"Completed"]});
+		sources.task.query("manager.fullName = :1 and status = :2",{params:[WAF.directory.currentUser().fullName,"Completed"]});
 	};// @lock
 
 	select7.change = function select7_change (event)// @startlock
@@ -213,13 +212,13 @@ function taskStatusAction(taskNextStatus) {
 	menuItem2.click = function menuItem2_click (event)// @startlock
 	{// @endlock
 		//$$("taskCreatedQeryField").setValue("from: " + WAF.directory.currentUser().fullName + ", status: Open | Active");
-		sources.task.query("manager.fullName = :1 and status = :2 or status = :3",{params:[WAF.directory.currentUser().fullName,"Open","Active"]});// find open and active task from current user
+		sources.task.query("manager.fullName = :1 and (status = :2 or status = :3)",{params:[WAF.directory.currentUser().fullName,"Open","Active"]});// find open and active task from current user
 	};// @lock
 
 	menuItem1.click = function menuItem1_click (event)// @startlock
 	{// @endlock
 		//$$("taskCreatedQeryField").setValue("to: " + currentUser.fullName + ", status: Open | Active");
-		sources.task.query("owner.fullName = :1 and status = :2 or status = :3",{params:[currentUser.fullName,"Open","Active"]});// find open and active task to current user
+		sources.task.query("owner.fullName = :1 and (status = :2 or status = :3)",{params:[WAF.directory.currentUser().fullName,"Open","Active"]});// find open and active task to current user
 	};// @lock
 
 	taskFinishButton.click = function taskFinishButton_click (event)// @startlock
@@ -324,6 +323,7 @@ function taskStatusAction(taskNextStatus) {
 				$("#profileUpdateErrorDiv").html("User Profile updated.");
 				//WAF.sources.user.serverRefresh();
 				$("#userProfileUpdateButton").attr("disabled", true);
+				sources.user.serverRefresh();
 			}, 
 			onError: function(error) {
 				$("#profileUpdateErrorDiv").html(error['error'][0].message);
@@ -422,7 +422,7 @@ function taskStatusAction(taskNextStatus) {
 			sources.task.query("");
 			$$("navigationView2").goToView(4);
 			$$("tabView1").selectTab(1); 
-			$("#signInIndicatorDiv").html( currentUser.fullName);
+			$("#signInIndicatorDiv").html( WAF.directory.currentUser().fullName);
 		}
 		
 		statusArray = [{status: "Open"},{status:"Active"},{status: "Completed"},{status:"Canceled"},{status: "Deleted"}];

@@ -57,9 +57,9 @@
 
 #navigationView2 #view-manager2 #view7 #header7 #title7 {
 	 top: 0px;
-	 bottom: -27px;
+	 bottom: -33px;
 	 left: 0px;
-	 right: -52px;
+	 right: -64px;
 	
 	 position: absolute;
 	 
@@ -137,9 +137,9 @@
 
 #navigationView2 #view-manager2 #view9 #header9 #title9 {
 	 top: 0px;
-	 bottom: -16px;
+	 bottom: -19px;
 	 left: 0px;
-	 right: -30px;
+	 right: -36px;
 	
 	 position: absolute;
 	 
@@ -177,9 +177,9 @@
 
 #navigationView2 #view-manager2 #view10 #header10 #title10 {
 	 top: 0px;
-	 bottom: -30px;
+	 bottom: -33px;
 	 left: 0px;
-	 right: -58px;
+	 right: -64px;
 	
 	 position: absolute;
 	 
@@ -361,17 +361,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view9 #body9 #signUpButton {
-	 width: 209px;
-	 height: 44px;
-	 top: 526px;
-	 left: 405px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 
-}
-
 #navigationView2 #view-manager2 #view8 #body8 #richText2 {
 	 width: 138px;
 	 height: 29px;
@@ -381,32 +370,6 @@
 	 position: absolute;
 	 font-size: 15px;
 	 color: rgb(102, 102, 102);
-	 
-}
-
-#navigationView2 #view-manager2 #view9 #body9 #richText4 {
-	 width: 151px;
-	 height: 43px;
-	 top: 119px;
-	 left: 405px;
-	
-	 position: absolute;
-	 text-align: left;
-	 font-size: 15px;
-	 color: rgb(76, 76, 76);
-	 
-}
-
-#navigationView2 #view-manager2 #view9 #body9 #textToSignIn {
-	 width: 61px;
-	 height: 35px;
-	 top: 119px;
-	 left: 560px;
-	
-	 position: absolute;
-	 text-decoration: underline;
-	 font-size: 17px;
-	 color: rgb(0, 63, 127);
 	 
 }
 
@@ -423,19 +386,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view9 #body9 #signUperrDiv {
-	 width: 308px;
-	 height: 55px;
-	 top: 469px;
-	 left: 354px;
-	
-	 position: absolute;
-	 font-size: 16px;
-	 color: rgb(191, 0, 0);
-	 text-align: center;
-	 
-}
-
 #navigationView2 #view-manager2 #view8 #body8 #loginErrorDiv {
 	 width: 205px;
 	 height: 49px;
@@ -446,84 +396,6 @@
 	 font-size: 17px;
 	 color: rgb(191, 0, 0);
 	 text-align: center;
-	 
-}
-
-#navigationView2 #view-manager2 #view9 #body9 #label12 {
-	 width: 89px;
-	 height: 20px;
-	 top: 388px;
-	 left: 405px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 
-}
-
-#navigationView2 #view-manager2 #view9 #body9 #signUpLoginField {
-	 width: 207px;
-	 height: 44px;
-	 top: 199px;
-	 left: 80px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 
-}
-
-#navigationView2 #view-manager2 #view9 #body9 #signUpPasswordField {
-	 width: 207px;
-	 height: 44px;
-	 top: 303px;
-	 left: 80px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 
-}
-
-#navigationView2 #view-manager2 #view9 #body9 #signUpConfirmPwField {
-	 width: 207px;
-	 height: 44px;
-	 top: 413px;
-	 left: 80px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 
-}
-
-#navigationView2 #view-manager2 #view9 #body9 #signUpFullNameField {
-	 width: 209px;
-	 height: 44px;
-	 top: 199px;
-	 left: 405px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 
-}
-
-#navigationView2 #view-manager2 #view9 #body9 #signUpDeptSelect {
-	 width: 209px;
-	 height: 44px;
-	 top: 413px;
-	 left: 405px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 
-}
-
-#navigationView2 #view-manager2 #view9 #body9 #passwordConfirmErrorDiv {
-	 width: 209px;
-	 height: 44px;
-	 top: 476px;
-	 left: 77px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 color: rgb(191, 0, 0);
 	 
 }
 
@@ -691,17 +563,6 @@
 	 height: 44px;
 	 top: 629px;
 	 left: 350px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 
-}
-
-#navigationView2 #view-manager2 #view9 #body9 #select5 {
-	 width: 209px;
-	 height: 44px;
-	 top: 303px;
-	 left: 405px;
 	
 	 position: absolute;
 	 font-size: 17px;
@@ -1284,36 +1145,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view10 #body10 #tabView1 #menuBar1 #menuItem3.waf-state-selected {
-	 border-top-left-radius: 0px;
-	-moz-border-radius-topleft: 0px;
-	 border-top-right-radius: 0px;
-	-moz-border-radius-topright: 0px;
-	 border-bottom-right-radius: 0px;
-	-moz-border-radius-bottomright: 0px;
-	 border-bottom-left-radius: 0px;
-	-moz-border-radius-bottomleft: 0px;
-	 border-top-style: none;
-	 border-bottom-style: none;
-	 border-left-style: none;
-	 border-right-style: none;
-	 -webkit-box-shadow: rgb(87, 87, 87) 0px 0px 0px 0px inset;
-	 -moz-box-shadow: rgb(87, 87, 87) 0px 0px 0px 0px inset;
-	 box-shadow: rgb(87, 87, 87) 0px 0px 0px 0px inset;
-	
-	 background-color: rgb(0, 127, 255);
-	 text-align: left;
-	 letter-spacing: 0px;
-	 background-image:url("data:image/svg+xml;base64, PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9IndhZi1pZS1ncmFkaWVudCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHg9IjAiIHk9IjAiIHgyPSIwIiB5Mj0iMTAwJSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZmZmZiIgb2Zmc2V0PSIwJSIgc3RvcC1vcGFjaXR5PSIwLjI5Mjk2OSIgLz48c3RvcCBzdG9wLWNvbG9yPSIjZmZmZmZmIiBvZmZzZXQ9IjAlIiBzdG9wLW9wYWNpdHk9IjAuMTk5MjE5IiAvPjxzdG9wIHN0b3AtY29sb3I9IiNmZmZmZmYiIG9mZnNldD0iNzMlIiBzdG9wLW9wYWNpdHk9IjAuMDk3NjU2MyIgLz48c3RvcCBzdG9wLWNvbG9yPSIjZmZmZmZmIiBvZmZzZXQ9IjEwMCUiIHN0b3Atb3BhY2l0eT0iMC4xOTkyMTkiIC8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI3dhZi1pZS1ncmFkaWVudCkiIC8+PC9zdmc+");
-	 background-image:-webkit-gradient(linear,0% 0%, 0% 100%,color-stop(0, rgba(255, 255, 255, 0.292969)),color-stop(0, rgba(255, 255, 255, 0.199219)),color-stop(0.73, rgba(255, 255, 255, 0.0976563)),color-stop(1, rgba(255, 255, 255, 0.199219)));
-	 background-image:-webkit-linear-gradient(top, rgba(255, 255, 255, 0.292969) 0%,rgba(255, 255, 255, 0.199219) 0%,rgba(255, 255, 255, 0.0976563) 73%,rgba(255, 255, 255, 0.199219) 100%);
-	 background-image:-moz-linear-gradient(top, rgba(255, 255, 255, 0.292969) 0%,rgba(255, 255, 255, 0.199219) 0%,rgba(255, 255, 255, 0.0976563) 73%,rgba(255, 255, 255, 0.199219) 100%);
-	 background-image:-ms-linear-gradient(top, rgba(255, 255, 255, 0.292969) 0%,rgba(255, 255, 255, 0.199219) 0%,rgba(255, 255, 255, 0.0976563) 73%,rgba(255, 255, 255, 0.199219) 100%);
-	 background-image:-o-linear-gradient(top, rgba(255, 255, 255, 0.292969) 0%,rgba(255, 255, 255, 0.199219) 0%,rgba(255, 255, 255, 0.0976563) 73%,rgba(255, 255, 255, 0.199219) 100%);
-	 background-image:linear-gradient(top, rgba(255, 255, 255, 0.292969) 0%,rgba(255, 255, 255, 0.199219) 0%,rgba(255, 255, 255, 0.0976563) 73%,rgba(255, 255, 255, 0.199219) 100%);
-	 
-}
-
 #navigationView2 #view-manager2 #view10 #body10 #tabView1 #menuBar1 #menuItem4 #label193 {
 	 width: 77px;
 	 height: 20px;
@@ -1505,12 +1336,14 @@
 }
 
 #navigationView2 #view-manager2 #view10 #body10 #container5 #label327 {
-	 width: 41px;
-	 height: 15px;
-	 top: 54px;
-	 left: 568px;
+	 width: 66px;
+	 height: 20px;
+	 top: 51.5px;
+	 left: 543px;
 	
 	 position: absolute;
+	 font-size: 17px;
+	 font-weight: bold;
 	 
 }
 
@@ -1544,17 +1377,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view9 #body9 #signUpPhoneNumField {
-	 width: 209px;
-	 height: 44px;
-	 top: 201px;
-	 left: 728px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 
-}
-
 #navigationView2 #view-manager2 #view9 #body9 #label8 {
 	 width: 50px;
 	 height: 15px;
@@ -1576,16 +1398,6 @@
 }
 
 #navigationView2 #view-manager2 #view9 #body9 #label9 {
-	 width: 50px;
-	 height: 15px;
-	 top: 283px;
-	 left: 405px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view9 #body9 #label50 {
 	 width: 50px;
 	 height: 15px;
 	 top: 283px;
@@ -1625,31 +1437,11 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view9 #body9 #label51 {
-	 width: 50px;
-	 height: 15px;
-	 top: 283px;
-	 left: 405px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view12 #body12 #label225 {
 	 width: 47px;
 	 height: 15px;
 	 top: 345px;
 	 left: 787px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view9 #body9 #label52 {
-	 width: 50px;
-	 height: 15px;
-	 top: 283px;
-	 left: 405px;
 	
 	 position: absolute;
 	 
@@ -1724,16 +1516,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view9 #body9 #label53 {
-	 width: 50px;
-	 height: 15px;
-	 top: 283px;
-	 left: 405px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view12 #body12 #label227 {
 	 width: 47px;
 	 height: 15px;
@@ -1764,91 +1546,11 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view9 #body9 #label54 {
-	 width: 50px;
-	 height: 15px;
-	 top: 283px;
-	 left: 405px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view12 #body12 #label228 {
 	 width: 47px;
 	 height: 15px;
 	 top: 345px;
 	 left: 787px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label17 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label18 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label19 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label20 {
-	 width: 35px;
-	 height: 15px;
-	 top: 68px;
-	 left: 627px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view11 #body11 #label5 {
-	 width: 54px;
-	 height: 15px;
-	 top: 266px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label21 {
-	 width: 68px;
-	 height: 15px;
-	 top: 163px;
-	 left: 355px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label22 {
-	 width: 56px;
-	 height: 15px;
-	 top: 68px;
-	 left: 80px;
 	
 	 position: absolute;
 	 
@@ -1889,16 +1591,6 @@
 	 height: 15px;
 	 top: 68px;
 	 left: 627px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view11 #body11 #label6 {
-	 width: 54px;
-	 height: 15px;
-	 top: 266px;
-	 left: 80px;
 	
 	 position: absolute;
 	 
@@ -2062,43 +1754,11 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view9 #body9 #signUpFaxNumField {
-	 width: 209px;
-	 height: 44px;
-	 top: 303px;
-	 left: 733px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 
-}
-
-#navigationView2 #view-manager2 #view9 #body9 #signUpEmailNumField {
-	 width: 209px;
-	 height: 44px;
-	 top: 413px;
-	 left: 733px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 
-}
-
 #navigationView2 #view-manager2 #view9 #body9 #label1 {
 	 width: 47px;
 	 height: 15px;
 	 top: 283px;
 	 left: 405px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view11 #body11 #label7 {
-	 width: 54px;
-	 height: 15px;
-	 top: 266px;
-	 left: 80px;
 	
 	 position: absolute;
 	 
@@ -2169,16 +1829,6 @@
 	 height: 15px;
 	 top: 283px;
 	 left: 405px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view11 #body11 #label13 {
-	 width: 54px;
-	 height: 15px;
-	 top: 266px;
-	 left: 80px;
 	
 	 position: absolute;
 	 
@@ -2510,16 +2160,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view11 #body11 #label14 {
-	 width: 54px;
-	 height: 15px;
-	 top: 266px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view13 #body13 #label47 {
 	 width: 68px;
 	 height: 15px;
@@ -2590,26 +2230,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view11 #body11 #label15 {
-	 width: 54px;
-	 height: 15px;
-	 top: 266px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #label16 {
-	 width: 47px;
-	 height: 15px;
-	 top: 14.5px;
-	 left: -52px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view13 #body13 #label64 {
 	 width: 68px;
 	 height: 15px;
@@ -2661,6 +2281,968 @@
 }
 
 #navigationView2 #view-manager2 #view13 #body13 #label69 {
+	 width: 35px;
+	 height: 15px;
+	 top: 68px;
+	 left: 627px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label70 {
+	 width: 68px;
+	 height: 15px;
+	 top: 163px;
+	 left: 355px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label71 {
+	 width: 56px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label72 {
+	 width: 57px;
+	 height: 15px;
+	 top: 163px;
+	 left: 630px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label73 {
+	 width: 55px;
+	 height: 15px;
+	 top: 163px;
+	 left: 819px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label74 {
+	 width: 96px;
+	 height: 15px;
+	 top: 264px;
+	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label75 {
+	 width: 35px;
+	 height: 15px;
+	 top: 68px;
+	 left: 627px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 {
+	 width: 385px;
+	 height: 648px;
+	 top: 23px;
+	 left: 321px;
+	
+	 position: absolute;
+	 background-color: rgb(255, 255, 255);
+	 border-top-style: solid;
+	 border-bottom-style: solid;
+	 border-left-style: solid;
+	 border-right-style: solid;
+	 border-top-left-radius: 30px;
+	-moz-border-radius-topleft: 30px;
+	 border-top-right-radius: 30px;
+	-moz-border-radius-topright: 30px;
+	 border-bottom-right-radius: 30px;
+	-moz-border-radius-bottomright: 30px;
+	 border-bottom-left-radius: 30px;
+	-moz-border-radius-bottomleft: 30px;
+	 border-top-width: 1px;
+	 border-bottom-width: 1px;
+	 border-left-width: 1px;
+	 border-right-width: 1px;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #signUpLoginField {
+	 width: 209px;
+	 height: 44px;
+	 top: 71px;
+	 left: 157px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 border-top-style: none;
+	 border-bottom-style: none;
+	 border-left-style: none;
+	 border-right-style: none;
+	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #signUpPasswordField {
+	 width: 209px;
+	 height: 44px;
+	 top: 115px;
+	 left: 157px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 border-top-style: none;
+	 border-bottom-style: none;
+	 border-left-style: none;
+	 border-right-style: none;
+	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #signUpFullNameField {
+	 width: 209px;
+	 height: 44px;
+	 top: 256px;
+	 left: 156px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 border-top-style: none;
+	 border-bottom-style: none;
+	 border-left-style: none;
+	 border-right-style: none;
+	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #signUpPhoneNumField {
+	 width: 209px;
+	 height: 44px;
+	 top: 300px;
+	 left: 156px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 border-top-style: none;
+	 border-bottom-style: none;
+	 border-left-style: none;
+	 border-right-style: none;
+	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #signUpFaxNumField {
+	 width: 209px;
+	 height: 44px;
+	 top: 344px;
+	 left: 156px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 border-top-style: none;
+	 border-bottom-style: none;
+	 border-left-style: none;
+	 border-right-style: none;
+	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #signUpEmailNumField {
+	 width: 209px;
+	 height: 44px;
+	 top: 388px;
+	 left: 156px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 border-top-style: none;
+	 border-bottom-style: none;
+	 border-left-style: none;
+	 border-right-style: none;
+	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label76 {
+	 width: 86px;
+	 height: 20px;
+	 top: 83px;
+	 left: 66px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 font-weight: bold;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label77 {
+	 width: 78px;
+	 height: 20px;
+	 top: 127px;
+	 left: 74px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 font-weight: bold;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label79 {
+	 width: 77px;
+	 height: 20px;
+	 top: 268px;
+	 left: 74px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 font-weight: bold;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label80 {
+	 width: 50px;
+	 height: 20px;
+	 top: 312px;
+	 left: 101px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 font-weight: bold;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label81 {
+	 width: 28px;
+	 height: 20px;
+	 top: 356px;
+	 left: 123px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 font-weight: bold;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label82 {
+	 width: 48px;
+	 height: 20px;
+	 top: 400px;
+	 left: 103px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 font-weight: bold;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #passwordConfirmErrorDiv {
+	 width: 209px;
+	 height: 44px;
+	 top: 207px;
+	 left: 157px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 color: rgb(191, 0, 0);
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #select5 {
+	 width: 209px;
+	 height: 44px;
+	 top: 432px;
+	 left: 157px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label5 {
+	 width: 68px;
+	 height: 20px;
+	 top: 444px;
+	 left: 84px;
+	
+	 position: absolute;
+	 font-weight: bold;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #signUpDeptSelect {
+	 width: 209px;
+	 height: 44px;
+	 top: 478px;
+	 left: 156px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label12 {
+	 width: 98px;
+	 height: 20px;
+	 top: 490px;
+	 left: 53px;
+	
+	 position: absolute;
+	 font-weight: bold;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #signUperrDiv {
+	 width: 308px;
+	 height: 55px;
+	 top: 531px;
+	 left: 57px;
+	
+	 position: absolute;
+	 font-size: 16px;
+	 color: rgb(191, 0, 0);
+	 text-align: center;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #signUpButton {
+	 width: 209px;
+	 height: 44px;
+	 top: 593px;
+	 left: 113px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #textToSignIn {
+	 width: 61px;
+	 height: 35px;
+	 top: 15px;
+	 left: 256px;
+	
+	 position: absolute;
+	 text-decoration: underline;
+	 font-size: 17px;
+	 color: rgb(0, 63, 127);
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #richText4 {
+	 width: 151px;
+	 height: 43px;
+	 top: 15px;
+	 left: 101px;
+	
+	 position: absolute;
+	 text-align: left;
+	 font-size: 15px;
+	 color: rgb(76, 76, 76);
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label6 {
+	 width: 68px;
+	 height: 15px;
+	 top: 492.5px;
+	 left: 83px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label83 {
+	 width: 68px;
+	 height: 15px;
+	 top: 163px;
+	 left: 355px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label84 {
+	 width: 56px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label85 {
+	 width: 57px;
+	 height: 15px;
+	 top: 163px;
+	 left: 630px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label86 {
+	 width: 55px;
+	 height: 15px;
+	 top: 163px;
+	 left: 819px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label87 {
+	 width: 96px;
+	 height: 15px;
+	 top: 264px;
+	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label88 {
+	 width: 35px;
+	 height: 15px;
+	 top: 68px;
+	 left: 627px;
+	
+	 position: absolute;
+	 
+}
+
+#label50 {
+	 width: 75px;
+	 height: 22px;
+	 top: auto;
+	 left: auto;
+	
+	 position: absolute;
+	 
+}
+
+#label51 {
+	 width: 75px;
+	 height: 22px;
+	 top: auto;
+	 left: auto;
+	
+	 position: absolute;
+	 
+}
+
+#label52 {
+	 width: 75px;
+	 height: 22px;
+	 top: auto;
+	 left: auto;
+	
+	 position: absolute;
+	 
+}
+
+#label53 {
+	 width: 75px;
+	 height: 22px;
+	 top: auto;
+	 left: auto;
+	
+	 position: absolute;
+	 
+}
+
+#label54 {
+	 width: 75px;
+	 height: 22px;
+	 top: auto;
+	 left: auto;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label7 {
+	 width: 68px;
+	 height: 15px;
+	 top: 492.5px;
+	 left: 83px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label89 {
+	 width: 68px;
+	 height: 15px;
+	 top: 163px;
+	 left: 355px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label90 {
+	 width: 56px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label91 {
+	 width: 57px;
+	 height: 15px;
+	 top: 163px;
+	 left: 630px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label92 {
+	 width: 55px;
+	 height: 15px;
+	 top: 163px;
+	 left: 819px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label93 {
+	 width: 96px;
+	 height: 15px;
+	 top: 264px;
+	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label94 {
+	 width: 35px;
+	 height: 15px;
+	 top: 68px;
+	 left: 627px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label10 {
+	 width: 68px;
+	 height: 15px;
+	 top: 492.5px;
+	 left: 83px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label95 {
+	 width: 68px;
+	 height: 15px;
+	 top: 163px;
+	 left: 355px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label96 {
+	 width: 56px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label97 {
+	 width: 57px;
+	 height: 15px;
+	 top: 163px;
+	 left: 630px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label98 {
+	 width: 55px;
+	 height: 15px;
+	 top: 163px;
+	 left: 819px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label99 {
+	 width: 96px;
+	 height: 15px;
+	 top: 264px;
+	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label100 {
+	 width: 35px;
+	 height: 15px;
+	 top: 68px;
+	 left: 627px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label78 {
+	 width: 145px;
+	 height: 20px;
+	 top: 171px;
+	 left: 7px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 font-weight: bold;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #signUpConfirmPwField {
+	 width: 209px;
+	 height: 44px;
+	 top: 159px;
+	 left: 157px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 border-top-style: none;
+	 border-bottom-style: none;
+	 border-left-style: none;
+	 border-right-style: none;
+	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label11 {
+	 width: 68px;
+	 height: 15px;
+	 top: 492.5px;
+	 left: 83px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label13 {
+	 width: 103px;
+	 height: 15px;
+	 top: 173.5px;
+	 left: 49px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label18 {
+	 width: 54px;
+	 height: 15px;
+	 top: 266px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label101 {
+	 width: 68px;
+	 height: 15px;
+	 top: 163px;
+	 left: 355px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label102 {
+	 width: 56px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label103 {
+	 width: 57px;
+	 height: 15px;
+	 top: 163px;
+	 left: 630px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label104 {
+	 width: 55px;
+	 height: 15px;
+	 top: 163px;
+	 left: 819px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label105 {
+	 width: 96px;
+	 height: 15px;
+	 top: 264px;
+	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label106 {
+	 width: 35px;
+	 height: 15px;
+	 top: 68px;
+	 left: 627px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label14 {
+	 width: 68px;
+	 height: 15px;
+	 top: 492.5px;
+	 left: 83px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label15 {
+	 width: 103px;
+	 height: 15px;
+	 top: 173.5px;
+	 left: 49px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label19 {
+	 width: 54px;
+	 height: 15px;
+	 top: 266px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #label21 {
+	 width: 47px;
+	 height: 15px;
+	 top: 14.5px;
+	 left: -52px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label107 {
+	 width: 68px;
+	 height: 15px;
+	 top: 163px;
+	 left: 355px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label108 {
+	 width: 56px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label109 {
+	 width: 57px;
+	 height: 15px;
+	 top: 163px;
+	 left: 630px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label110 {
+	 width: 55px;
+	 height: 15px;
+	 top: 163px;
+	 left: 819px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label111 {
+	 width: 96px;
+	 height: 15px;
+	 top: 264px;
+	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label112 {
+	 width: 35px;
+	 height: 15px;
+	 top: 68px;
+	 left: 627px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label16 {
+	 width: 68px;
+	 height: 15px;
+	 top: 492.5px;
+	 left: 83px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label17 {
+	 width: 103px;
+	 height: 15px;
+	 top: 173.5px;
+	 left: 49px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label20 {
+	 width: 54px;
+	 height: 15px;
+	 top: 266px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #label22 {
+	 width: 47px;
+	 height: 15px;
+	 top: 14.5px;
+	 left: -52px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label113 {
+	 width: 68px;
+	 height: 15px;
+	 top: 163px;
+	 left: 355px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label114 {
+	 width: 56px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label115 {
+	 width: 57px;
+	 height: 15px;
+	 top: 163px;
+	 left: 630px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label116 {
+	 width: 55px;
+	 height: 15px;
+	 top: 163px;
+	 left: 819px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label117 {
+	 width: 96px;
+	 height: 15px;
+	 top: 264px;
+	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label118 {
 	 width: 35px;
 	 height: 15px;
 	 top: 68px;
