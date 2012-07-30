@@ -57,9 +57,9 @@
 
 #navigationView2 #view-manager2 #view7 #header7 #title7 {
 	 top: 0px;
-	 bottom: -33px;
+	 bottom: -36px;
 	 left: 0px;
-	 right: -64px;
+	 right: -70px;
 	
 	 position: absolute;
 	 
@@ -257,9 +257,9 @@
 
 #navigationView2 #view-manager2 #view12 #header12 #title12 {
 	 top: 0px;
-	 bottom: -7px;
+	 bottom: -8px;
 	 left: 0px;
-	 right: -12px;
+	 right: -14px;
 	
 	 position: absolute;
 	 
@@ -1457,65 +1457,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view12 #body12 #container6 {
-	 width: 447px;
-	 height: 564px;
-	 top: 12px;
-	 left: 301px;
-	
-	 position: absolute;
-	 background-color: rgb(255, 255, 255);
-	 border-top-left-radius: 20px;
-	-moz-border-radius-topleft: 20px;
-	 border-top-right-radius: 20px;
-	-moz-border-radius-topright: 20px;
-	 border-bottom-right-radius: 20px;
-	-moz-border-radius-bottomright: 20px;
-	 border-bottom-left-radius: 20px;
-	-moz-border-radius-bottomleft: 20px;
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #textField3 {
-	 width: 265px;
-	 height: 44px;
-	 top: 3px;
-	 left: 168px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 border-top-left-radius: 0px;
-	-moz-border-radius-topleft: 0px;
-	 border-top-right-radius: 0px;
-	-moz-border-radius-topright: 0px;
-	 border-bottom-right-radius: 0px;
-	-moz-border-radius-bottomright: 0px;
-	 border-bottom-left-radius: 0px;
-	-moz-border-radius-bottomleft: 0px;
-	 border-top-style: none;
-	 border-bottom-style: none;
-	 border-left-style: none;
-	 border-right-style: none;
-	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #richText3 {
-	 width: 92px;
-	 height: 24px;
-	 top: 11px;
-	 left: 64px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 font-weight: bold;
-	 text-align: right;
-	 
-}
-
 #navigationView2 #view-manager2 #view12 #body12 #label227 {
 	 width: 47px;
 	 height: 15px;
@@ -1551,36 +1492,6 @@
 	 height: 15px;
 	 top: 345px;
 	 left: 787px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label23 {
-	 width: 57px;
-	 height: 15px;
-	 top: 163px;
-	 left: 630px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label24 {
-	 width: 55px;
-	 height: 15px;
-	 top: 163px;
-	 left: 819px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view13 #body13 #label25 {
-	 width: 96px;
-	 height: 15px;
-	 top: 264px;
-	 left: 82px;
 	
 	 position: absolute;
 	 
@@ -1891,262 +1802,6 @@
 	 left: 627px;
 	
 	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #textField5 {
-	 width: 265px;
-	 height: 44px;
-	 top: 45px;
-	 left: 168px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 border-top-style: none;
-	 border-bottom-style: none;
-	 border-left-style: none;
-	 border-right-style: none;
-	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #label46 {
-	 width: 86px;
-	 height: 20px;
-	 top: 57px;
-	 left: 77px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 font-weight: bold;
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #profilePasswordField {
-	 width: 265px;
-	 height: 44px;
-	 top: 91px;
-	 right: 14px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	
-	 border-top-style: none;
-	 border-bottom-style: none;
-	 border-left-style: none;
-	 border-right-style: none;
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #profilePasswordConfirmField {
-	 width: 265px;
-	 height: 44px;
-	 top: 135px;
-	 left: 168px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	
-	 border-top-style: none;
-	 border-bottom-style: none;
-	 border-left-style: none;
-	 border-right-style: none;
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #label48 {
-	 width: 145px;
-	 height: 20px;
-	 top: 147px;
-	 left: 18px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 font-weight: bold;
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #label49 {
-	 width: 82px;
-	 height: 20px;
-	 top: 12px;
-	 left: -87px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 font-weight: bold;
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #matchPasswordError {
-	 width: 265px;
-	 height: 26px;
-	 top: 182px;
-	 left: 168px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 color: rgb(191, 0, 0);
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #textField10 {
-	 width: 265px;
-	 height: 44px;
-	 top: 215px;
-	 left: 168px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	
-	 border-top-style: none;
-	 border-bottom-style: none;
-	 border-left-style: none;
-	 border-right-style: none;
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #phoneFaxValidationErrorDiv {
-	 width: 265px;
-	 height: 27px;
-	 top: 263px;
-	 left: 168px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 color: rgb(191, 0, 0);
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #textField11 {
-	 width: 265px;
-	 height: 44px;
-	 top: 293px;
-	 left: 168px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	
-	 border-top-style: none;
-	 border-bottom-style: none;
-	 border-left-style: none;
-	 border-right-style: none;
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #emailValidationErrorDiv {
-	 width: 265px;
-	 height: 26px;
-	 top: 341px;
-	 left: 168px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 color: rgb(191, 0, 0);
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #textField12 {
-	 width: 265px;
-	 height: 44px;
-	 top: 371px;
-	 left: 168px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	
-	 border-top-style: none;
-	 border-bottom-style: none;
-	 border-left-style: none;
-	 border-right-style: none;
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #profileDeparmentSelcet {
-	 width: 265px;
-	 height: 44px;
-	 top: 417px;
-	 left: 168px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #label232 {
-	 width: 92px;
-	 height: 20px;
-	 top: 429px;
-	 left: 71px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 font-weight: bold;
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #profileLocationtSelcet {
-	 width: 265px;
-	 height: 44px;
-	 top: 463px;
-	 right: 14px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #label56 {
-	 width: 50px;
-	 height: 20px;
-	 top: 227px;
-	 left: 113px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 font-weight: bold;
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #label57 {
-	 width: 28px;
-	 height: 20px;
-	 top: 305px;
-	 left: 135px;
-	
-	 position: absolute;
-	 font-weight: bold;
-	 font-size: 17px;
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #label58 {
-	 width: 48px;
-	 height: 20px;
-	 top: 383px;
-	 left: 115px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 font-weight: bold;
 	 
 }
 
@@ -2982,16 +2637,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view11 #body11 #label18 {
-	 width: 54px;
-	 height: 15px;
-	 top: 266px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view13 #body13 #label101 {
 	 width: 68px;
 	 height: 15px;
@@ -3067,26 +2712,6 @@
 	 height: 15px;
 	 top: 173.5px;
 	 left: 49px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view11 #body11 #label19 {
-	 width: 54px;
-	 height: 15px;
-	 top: 266px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #label21 {
-	 width: 47px;
-	 height: 15px;
-	 top: 14.5px;
-	 left: -52px;
 	
 	 position: absolute;
 	 
@@ -3172,26 +2797,6 @@
 	 
 }
 
-#navigationView2 #view-manager2 #view11 #body11 #label20 {
-	 width: 54px;
-	 height: 15px;
-	 top: 266px;
-	 left: 80px;
-	
-	 position: absolute;
-	 
-}
-
-#navigationView2 #view-manager2 #view12 #body12 #container6 #label22 {
-	 width: 47px;
-	 height: 15px;
-	 top: 14.5px;
-	 left: -52px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView2 #view-manager2 #view13 #body13 #label113 {
 	 width: 68px;
 	 height: 15px;
@@ -3243,6 +2848,581 @@
 }
 
 #navigationView2 #view-manager2 #view13 #body13 #label118 {
+	 width: 35px;
+	 height: 15px;
+	 top: 68px;
+	 left: 627px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label18 {
+	 width: 68px;
+	 height: 15px;
+	 top: 492.5px;
+	 left: 83px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label19 {
+	 width: 103px;
+	 height: 15px;
+	 top: 173.5px;
+	 left: 49px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label119 {
+	 width: 68px;
+	 height: 15px;
+	 top: 163px;
+	 left: 355px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label120 {
+	 width: 56px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label121 {
+	 width: 57px;
+	 height: 15px;
+	 top: 163px;
+	 left: 630px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label122 {
+	 width: 55px;
+	 height: 15px;
+	 top: 163px;
+	 left: 819px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label123 {
+	 width: 96px;
+	 height: 15px;
+	 top: 264px;
+	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label124 {
+	 width: 35px;
+	 height: 15px;
+	 top: 68px;
+	 left: 627px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 {
+	 width: 447px;
+	 height: 564px;
+	 top: 12px;
+	 left: 301px;
+	
+	 position: absolute;
+	 background-color: rgb(255, 255, 255);
+	 border-top-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	 border-top-right-radius: 20px;
+	-moz-border-radius-topright: 20px;
+	 border-bottom-right-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+	 border-bottom-left-radius: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #textField3 {
+	 width: 265px;
+	 height: 44px;
+	 top: 3px;
+	 left: 168px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 border-top-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	 border-top-right-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	 border-bottom-right-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+	 border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	 border-top-style: none;
+	 border-bottom-style: none;
+	 border-left-style: none;
+	 border-right-style: none;
+	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #richText3 {
+	 width: 92px;
+	 height: 24px;
+	 top: 11px;
+	 left: 64px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 font-weight: bold;
+	 text-align: right;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #textField5 {
+	 width: 265px;
+	 height: 44px;
+	 top: 45px;
+	 left: 168px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 border-top-style: none;
+	 border-bottom-style: none;
+	 border-left-style: none;
+	 border-right-style: none;
+	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #label46 {
+	 width: 86px;
+	 height: 20px;
+	 top: 57px;
+	 left: 77px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 font-weight: bold;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #profilePasswordField {
+	 width: 265px;
+	 height: 44px;
+	 top: 91px;
+	 right: 14px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	
+	 border-top-style: none;
+	 border-bottom-style: none;
+	 border-left-style: none;
+	 border-right-style: none;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #profilePasswordConfirmField {
+	 width: 265px;
+	 height: 44px;
+	 top: 135px;
+	 left: 168px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	
+	 border-top-style: none;
+	 border-bottom-style: none;
+	 border-left-style: none;
+	 border-right-style: none;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #label48 {
+	 width: 145px;
+	 height: 20px;
+	 top: 147px;
+	 left: 18px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 font-weight: bold;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #label49 {
+	 width: 82px;
+	 height: 20px;
+	 top: 12px;
+	 left: -87px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 font-weight: bold;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #matchPasswordError {
+	 width: 265px;
+	 height: 26px;
+	 top: 182px;
+	 left: 168px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 color: rgb(191, 0, 0);
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #textField10 {
+	 width: 265px;
+	 height: 44px;
+	 top: 215px;
+	 left: 168px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	
+	 border-top-style: none;
+	 border-bottom-style: none;
+	 border-left-style: none;
+	 border-right-style: none;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #phoneFaxValidationErrorDiv {
+	 width: 265px;
+	 height: 27px;
+	 top: 263px;
+	 left: 168px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 color: rgb(191, 0, 0);
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #textField11 {
+	 width: 265px;
+	 height: 44px;
+	 top: 293px;
+	 left: 168px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	
+	 border-top-style: none;
+	 border-bottom-style: none;
+	 border-left-style: none;
+	 border-right-style: none;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #emailValidationErrorDiv {
+	 width: 265px;
+	 height: 26px;
+	 top: 341px;
+	 left: 168px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 color: rgb(191, 0, 0);
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #textField12 {
+	 width: 265px;
+	 height: 44px;
+	 top: 371px;
+	 left: 168px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	
+	 border-top-style: none;
+	 border-bottom-style: none;
+	 border-left-style: none;
+	 border-right-style: none;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #profileDeparmentSelcet {
+	 width: 265px;
+	 height: 44px;
+	 top: 417px;
+	 left: 168px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #label232 {
+	 width: 92px;
+	 height: 20px;
+	 top: 429px;
+	 left: 71px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 font-weight: bold;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #profileLocationtSelcet {
+	 width: 265px;
+	 height: 44px;
+	 top: 463px;
+	 right: 14px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #label56 {
+	 width: 50px;
+	 height: 20px;
+	 top: 227px;
+	 left: 113px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 font-weight: bold;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #label57 {
+	 width: 28px;
+	 height: 20px;
+	 top: 305px;
+	 left: 135px;
+	
+	 position: absolute;
+	 font-weight: bold;
+	 font-size: 17px;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #label58 {
+	 width: 48px;
+	 height: 20px;
+	 top: 383px;
+	 left: 115px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 font-weight: bold;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label20 {
+	 width: 68px;
+	 height: 15px;
+	 top: 492.5px;
+	 left: 83px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label21 {
+	 width: 103px;
+	 height: 15px;
+	 top: 173.5px;
+	 left: 49px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label125 {
+	 width: 68px;
+	 height: 15px;
+	 top: 163px;
+	 left: 355px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label126 {
+	 width: 56px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label127 {
+	 width: 57px;
+	 height: 15px;
+	 top: 163px;
+	 left: 630px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label128 {
+	 width: 55px;
+	 height: 15px;
+	 top: 163px;
+	 left: 819px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label129 {
+	 width: 96px;
+	 height: 15px;
+	 top: 264px;
+	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label130 {
+	 width: 35px;
+	 height: 15px;
+	 top: 68px;
+	 left: 627px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label22 {
+	 width: 68px;
+	 height: 15px;
+	 top: 492.5px;
+	 left: 83px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view9 #body9 #container9 #label23 {
+	 width: 103px;
+	 height: 15px;
+	 top: 173.5px;
+	 left: 49px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view11 #body11 #label24 {
+	 width: 54px;
+	 height: 15px;
+	 top: 266px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view12 #body12 #container6 #label25 {
+	 width: 47px;
+	 height: 15px;
+	 top: 14.5px;
+	 left: -52px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label131 {
+	 width: 68px;
+	 height: 15px;
+	 top: 163px;
+	 left: 355px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label132 {
+	 width: 56px;
+	 height: 15px;
+	 top: 68px;
+	 left: 80px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label133 {
+	 width: 57px;
+	 height: 15px;
+	 top: 163px;
+	 left: 630px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label134 {
+	 width: 55px;
+	 height: 15px;
+	 top: 163px;
+	 left: 819px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label135 {
+	 width: 96px;
+	 height: 15px;
+	 top: 264px;
+	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView2 #view-manager2 #view13 #body13 #label136 {
 	 width: 35px;
 	 height: 15px;
 	 top: 68px;

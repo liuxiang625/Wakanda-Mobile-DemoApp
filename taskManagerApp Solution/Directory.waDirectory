@@ -1,8 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<directory>
-	<group ID="01000000000000000000000000000000" name="Admin">
-	</group>
-	<group ID="02000000000000000000000000000000" name="Debugger">
-	</group>
-</directory>
+﻿<?xml version="1.0" encoding="UTF-8"?><directory>
 
+<group ID="01000000000000000000000000000000" name="Admin">
+
+	<include user="admin" ID="C6E65E1538742B499A0BF3CB63004BE3"/>
+
+	<include group="Manager" groupID="36EEA10C655BC04597F1EF0E05AAC3BE"/>
+</group>
+
+<group ID="02000000000000000000000000000000" name="Debugger">
+
+	<include user="admin" ID="C6E65E1538742B499A0BF3CB63004BE3"/>
+</group>
+
+<group ID="36EEA10C655BC04597F1EF0E05AAC3BE" name="Manager"></group>
+
+<group ID="1465148BA7604C44A8F08614CCAC8A8C" name="User"></group>
+
+<user ID="C6E65E1538742B499A0BF3CB63004BE3" name="admin" fullName="Admin" password="003b744708c16733d1eb3371bec208fd"/>
+</directory>

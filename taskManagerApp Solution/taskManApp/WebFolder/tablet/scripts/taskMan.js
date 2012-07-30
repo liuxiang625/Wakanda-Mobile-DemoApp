@@ -427,6 +427,7 @@ function taskStatusAction(taskNextStatus) {
 		
 		statusArray = [{status: "Open"},{status:"Active"},{status: "Completed"},{status:"Canceled"},{status: "Deleted"}];
 		sources.statusArray.sync();
+		//console.log(sources.statusArray);
 		locationArray = [{location: ""}, {location: "U.S."},{location: "France"}];
 		sources.locationArray.sync();
 		pririotyArray = [{priority: 'Low'},{priority: 'Mid'},{priority: 'High'},{priority: 'Emergency'}];

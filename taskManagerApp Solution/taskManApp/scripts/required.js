@@ -12,20 +12,20 @@ function taskManLoginListener(userName, password) {
 	if (myUser === null) {
 		return false;
 	} else {
-		if (myUser.password == password) {
+		if (myUser.password === password) {
 			
 			var theGroups = [];
 			switch (myUser.role) {
 				case "Manager":
-				theGroups = ['Admin'];
+				theGroups = ['Manager'];
 				break;
 		
 //				case "tech":
 //				theGroups = ['tech'];
 //				break;
 
-				case "Tech":
-				theGroups = ['Admin'];
+				case "User":
+				theGroups = ['User'];
 				break;
 			}
 			
