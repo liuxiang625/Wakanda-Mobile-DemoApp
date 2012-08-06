@@ -55,9 +55,9 @@
 
 #navigationView1 #view-manager1 #view1 #header1 #title1 {
 	 top: 0px;
-	 bottom: -7px;
+	 bottom: -9px;
 	 left: 0px;
-	 right: -12px;
+	 right: -16px;
 	
 	 position: absolute;
 	 
@@ -95,9 +95,9 @@
 
 #navigationView1 #view-manager1 #view2 #header2 #title2 {
 	 top: 0px;
-	 bottom: -11px;
+	 bottom: -15px;
 	 left: 0px;
-	 right: -20px;
+	 right: -28px;
 	
 	 position: absolute;
 	 
@@ -256,7 +256,7 @@
 
 #navigationView1 #view-manager1 #view2 #body2 #dataGrid1 {
 	 width: 514px;
-	 height: 680px;
+	 height: 614px;
 	 top: 0px;
 	 left: 0px;
 	
@@ -350,8 +350,8 @@
 #navigationView1 #view-manager1 #view2 #body2 #container2 #label9 {
 	 width: 75px;
 	 height: 20px;
-	 top: 267px;
-	 left: 60px;
+	 top: 216px;
+	 left: 64px;
 	
 	 position: absolute;
 	 min-width: 75px;
@@ -363,8 +363,8 @@
 #navigationView1 #view-manager1 #view2 #body2 #container2 #textField9 {
 	 width: 209px;
 	 height: 40px;
-	 top: 257px;
-	 left: 140px;
+	 top: 206px;
+	 left: 144px;
 	
 	 position: absolute;
 	 
@@ -373,8 +373,8 @@
 #navigationView1 #view-manager1 #view2 #body2 #container2 #label10 {
 	 width: 75px;
 	 height: 20px;
-	 top: 320px;
-	 left: 60px;
+	 top: 269px;
+	 left: 64px;
 	
 	 position: absolute;
 	 min-width: 75px;
@@ -386,8 +386,8 @@
 #navigationView1 #view-manager1 #view2 #body2 #container2 #textField10 {
 	 width: 209px;
 	 height: 40px;
-	 top: 310px;
-	 left: 140px;
+	 top: 259px;
+	 left: 144px;
 	
 	 position: absolute;
 	 
@@ -396,8 +396,8 @@
 #navigationView1 #view-manager1 #view2 #body2 #container2 #label11 {
 	 width: 75px;
 	 height: 20px;
-	 top: 373px;
-	 left: 60px;
+	 top: 322px;
+	 left: 64px;
 	
 	 position: absolute;
 	 min-width: 75px;
@@ -409,8 +409,8 @@
 #navigationView1 #view-manager1 #view2 #body2 #container2 #textField11 {
 	 width: 209px;
 	 height: 40px;
-	 top: 363px;
-	 left: 140px;
+	 top: 312px;
+	 left: 144px;
 	
 	 position: absolute;
 	 
@@ -426,34 +426,11 @@
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 #textField13 {
-	 width: 209px;
-	 height: 40px;
-	 top: 203px;
-	 left: 140px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 
-}
-
-#navigationView1 #view-manager1 #view2 #body2 #container2 #label16 {
-	 width: 134px;
-	 height: 20px;
-	 top: 213px;
-	 left: 1px;
-	
-	 position: absolute;
-	 min-width: 75px;
-	 font-size: 17px;
-	 
-}
-
 #navigationView1 #view-manager1 #view2 #body2 #container2 #label17 {
 	 width: 84px;
 	 height: 20px;
-	 top: 538px;
-	 left: 51px;
+	 top: 487px;
+	 left: 55px;
 	
 	 position: absolute;
 	 font-weight: normal;
@@ -507,21 +484,11 @@
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 #locationRadioGroup {
-	 width: 209px;
-	 height: 40px;
-	 top: 418px;
-	 left: 140px;
-	
-	 position: absolute;
-	 
-}
-
 #navigationView1 #view-manager1 #view2 #body2 #container2 #roleRadioGroup {
 	 width: 209px;
 	 height: 40px;
-	 top: 471px;
-	 left: 140px;
+	 top: 420px;
+	 left: 144px;
 	
 	 position: absolute;
 	 
@@ -563,8 +530,8 @@
 #navigationView1 #view-manager1 #view2 #body2 #container2 #deptSelect {
 	 width: 209px;
 	 height: 44px;
-	 top: 526px;
-	 left: 140px;
+	 top: 475px;
+	 left: 144px;
 	
 	 position: absolute;
 	 font-size: 17px;
@@ -941,6 +908,220 @@
 	 height: 15px;
 	 top: 155.5px;
 	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #container2 #label52 {
+	 width: 47px;
+	 height: 15px;
+	 top: 430.5px;
+	 left: 88px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #container2 #label53 {
+	 width: 26px;
+	 height: 15px;
+	 top: 483.5px;
+	 left: 109px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #container2 #label54 {
+	 width: 56px;
+	 height: 15px;
+	 top: 155.5px;
+	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #container2 #label55 {
+	 width: 47px;
+	 height: 15px;
+	 top: 430.5px;
+	 left: 88px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #container2 #label56 {
+	 width: 26px;
+	 height: 15px;
+	 top: 483.5px;
+	 left: 109px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #container2 #label57 {
+	 width: 56px;
+	 height: 15px;
+	 top: 155.5px;
+	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #container2 #label58 {
+	 width: 47px;
+	 height: 15px;
+	 top: 379.5px;
+	 left: 92px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #container2 #label59 {
+	 width: 26px;
+	 height: 15px;
+	 top: 432px;
+	 left: 113px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #container2 #label60 {
+	 width: 56px;
+	 height: 15px;
+	 top: 155.5px;
+	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #container2 #label16 {
+	 width: 47px;
+	 height: 15px;
+	 top: 379.5px;
+	 left: 92px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #container2 #label61 {
+	 width: 26px;
+	 height: 15px;
+	 top: 432.5px;
+	 left: 113px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #container2 #label62 {
+	 width: 56px;
+	 height: 15px;
+	 top: 155.5px;
+	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #container2 #label63 {
+	 width: 47px;
+	 height: 15px;
+	 top: 379.5px;
+	 left: 92px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #container2 #label64 {
+	 width: 26px;
+	 height: 15px;
+	 top: 432.5px;
+	 left: 113px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #container2 #label65 {
+	 width: 56px;
+	 height: 15px;
+	 top: 155.5px;
+	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #button4 {
+	 width: 165px;
+	 height: 44px;
+	 top: 614px;
+	 left: 26px;
+	
+	 position: absolute;
+	 background-color: rgb(102, 102, 102);
+	 font-size: 17px;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #button5 {
+	 width: 165px;
+	 height: 44px;
+	 top: 612px;
+	 left: 252px;
+	
+	 position: absolute;
+	 background-color: rgb(102, 102, 102);
+	 font-size: 17px;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #container2 #label67 {
+	 width: 26px;
+	 height: 15px;
+	 top: 432.5px;
+	 left: 113px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #container2 #label68 {
+	 width: 56px;
+	 height: 15px;
+	 top: 155.5px;
+	 left: 82px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #container2 #label69 {
+	 width: 47px;
+	 height: 15px;
+	 top: 383px;
+	 left: 91px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #body2 #container2 #locationRadioGroup {
+	 width: 210px;
+	 height: 35px;
+	 top: 373px;
+	 left: 143px;
 	
 	 position: absolute;
 	 
