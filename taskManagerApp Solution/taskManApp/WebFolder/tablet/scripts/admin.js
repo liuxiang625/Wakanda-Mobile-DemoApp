@@ -176,7 +176,7 @@ function validatePhone(phoneToValidate) {
 				}
 			});			
 		}
-		deparmentArray = [{deptName: ''}, {deptName: 'Tech'}, {deptName:'Management'},{deptName:'Operation'},{deptName:'Sales'},{deptName:'Marketing'}];
+		deparmentArray = [{deptName: ''}, {deptName: 'Tech Team'}, {deptName:'Management'},{deptName:'Operation'},{deptName:'Sales'},{deptName:'Marketing'}];
 		sources.deparmentArray.sync();
 		locationArray = [ {location: "U.S."},{location: "France"}];
 		sources.locationArray.sync();

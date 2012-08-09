@@ -13,3 +13,23 @@
 	 
 }
 
+#label1 {
+	 width: 26px;
+	 height: 14px;
+	 top: 74px;
+	 left: 375px;
+	
+	 position: absolute;
+	 
+}
+
+#combobox1 {
+	 width: 164px;
+	 height: 24px;
+	 top: 69px;
+	 left: 406px;
+	
+	 position: absolute;
+	 
+}
+

@@ -55,11 +55,12 @@
 
 #navigationView1 #view-manager1 #view1 #header1 #title1 {
 	 top: 0px;
-	 bottom: -9px;
+	 bottom: -10px;
 	 left: 0px;
-	 right: -16px;
+	 right: -18px;
 	
 	 position: absolute;
+	 background-color: rgba(0, 0, 0, 0);
 	 
 }
 
@@ -95,9 +96,9 @@
 
 #navigationView1 #view-manager1 #view2 #header2 #title2 {
 	 top: 0px;
-	 bottom: -19px;
+	 bottom: -20px;
 	 left: 0px;
-	 right: -36px;
+	 right: -38px;
 	
 	 position: absolute;
 	 
