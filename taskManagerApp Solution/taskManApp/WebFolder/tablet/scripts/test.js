@@ -7,6 +7,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	var documentEvent = {};	// @document
 // @endregion// @endlock
 
+
 // eventHandlers// @lock
 
 	removeCurrentEntity.click = function removeCurrentEntity_click (event)// @startlock
@@ -19,6 +20,18 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 				$("#updateTaskErrorDiv").html(error['error'][0].message + " (" + error['error'][0].errCode + ")");
 			}
 		});
+		
+		
+		String.prototype.trim = function() {
+    		var x = this.toString();
+    		x = x.replace(new RegExp("^\\s+", ""), "");
+    		return x;
+		}
+	
+		var test = " test ";
+		var result=test.trim();
+		console.log(result);
+
 	};// @lock
 
 	button1.click = function button1_click (event)// @startlock

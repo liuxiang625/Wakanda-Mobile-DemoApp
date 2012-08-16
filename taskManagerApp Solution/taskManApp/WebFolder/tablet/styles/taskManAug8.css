@@ -55,9 +55,9 @@
 
 #navigationView1 #view-manager1 #view1 #header1 #title1 {
 	 top: 0px;
-	 bottom: -4px;
+	 bottom: -3px;
 	 left: 0px;
-	 right: -6px;
+	 right: -4px;
 	
 	 position: absolute;
 	 
@@ -95,9 +95,9 @@
 
 #navigationView1 #view-manager1 #view2 #header2 #title2 {
 	 top: 0px;
-	 bottom: -3px;
+	 bottom: -6px;
 	 left: 0px;
-	 right: -4px;
+	 right: -10px;
 	
 	 position: absolute;
 	 
@@ -253,36 +253,6 @@
 	 
 }
 
-#navigationView1 #view-manager1 #view1 #body1 #container1 #textField1 {
-	 width: 209px;
-	 height: 44px;
-	 top: 57px;
-	 left: 126px;
-	
-	 position: absolute;
-	 border-top-width: 0px;
-	 border-bottom-width: 0px;
-	 border-left-width: 0px;
-	 border-right-width: 0px;
-	 border-top-left-radius: 8px;
-	-moz-border-radius-topleft: 8px;
-	 border-top-right-radius: 8px;
-	-moz-border-radius-topright: 8px;
-	 border-bottom-right-radius: 8px;
-	-moz-border-radius-bottomright: 8px;
-	 border-bottom-left-radius: 8px;
-	-moz-border-radius-bottomleft: 8px;
-	 border-top-style: none;
-	 border-bottom-style: none;
-	 border-left-style: none;
-	 border-right-style: none;
-	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	
-	 
-}
-
 #navigationView1 #view-manager1 #view1 #body1 #container1 #label2 {
 	 width: 76px;
 	 height: 20px;
@@ -291,36 +261,6 @@
 	
 	 position: absolute;
 	 font-size: 17px;
-	 
-}
-
-#navigationView1 #view-manager1 #view1 #body1 #container1 #textField2 {
-	 width: 209px;
-	 height: 44px;
-	 top: 113px;
-	 left: 125px;
-	
-	 position: absolute;
-	 border-top-width: 0px;
-	 border-bottom-width: 0px;
-	 border-left-width: 0px;
-	 border-right-width: 0px;
-	 border-top-left-radius: 8px;
-	-moz-border-radius-topleft: 8px;
-	 border-top-right-radius: 8px;
-	-moz-border-radius-topright: 8px;
-	 border-bottom-right-radius: 8px;
-	-moz-border-radius-bottomright: 8px;
-	 border-bottom-left-radius: 8px;
-	-moz-border-radius-bottomleft: 8px;
-	 border-top-style: none;
-	 border-bottom-style: none;
-	 border-left-style: none;
-	 border-right-style: none;
-	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	
 	 
 }
 
@@ -363,11 +303,86 @@
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 {
+#navigationView1 #view-manager1 #view1 #body1 #container1 #loginErrorDiv {
+	 width: 268px;
+	 height: 29px;
+	 top: 154px;
+	 left: 51px;
+	
+	 position: absolute;
+	 text-align: center;
+	 font-size: 17px;
+	 color: rgb(191, 0, 0);
+	 
+}
+
+#navigationView1 #view-manager1 #view1 #body1 #container1 #signInLogInField {
+	 width: 209px;
+	 height: 44px;
+	 top: 57px;
+	 left: 126px;
+	
+	 position: absolute;
+	 border-top-width: 0px;
+	 border-bottom-width: 0px;
+	 border-left-width: 0px;
+	 border-right-width: 0px;
+	 border-top-left-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	 border-top-right-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	 border-bottom-right-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	 border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	 border-top-style: none;
+	 border-bottom-style: none;
+	 border-left-style: none;
+	 border-right-style: none;
+	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	
+	 font-size: 17px;
+	 
+}
+
+#navigationView1 #view-manager1 #view1 #body1 #container1 #signInPasswordField {
+	 width: 209px;
+	 height: 44px;
+	 top: 113px;
+	 left: 125px;
+	
+	 position: absolute;
+	 border-top-width: 0px;
+	 border-bottom-width: 0px;
+	 border-left-width: 0px;
+	 border-right-width: 0px;
+	 border-top-left-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	 border-top-right-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	 border-bottom-right-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	 border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	 border-top-style: none;
+	 border-bottom-style: none;
+	 border-left-style: none;
+	 border-right-style: none;
+	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	
+	 font-size: 17px;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #container2 {
 	 width: 417px;
-	 height: 530px;
-	 top: 65px;
-	 left: 313px;
+	 height: 602px;
+	 top: 86px;
+	 left: 314px;
 	
 	 position: absolute;
 	 background-color: rgb(255, 255, 255);
@@ -390,10 +405,10 @@
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 #label3 {
+#navigationView1 #view-manager1 #view2 #container2 #label3 {
 	 width: 70px;
 	 height: 20px;
-	 top: 83px;
+	 top: 61px;
 	 left: 87px;
 	
 	 position: absolute;
@@ -401,10 +416,10 @@
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 #textField3 {
+#navigationView1 #view-manager1 #view2 #container2 #textField3 {
 	 width: 209px;
 	 height: 40px;
-	 top: 73px;
+	 top: 51px;
 	 left: 162px;
 	
 	 position: absolute;
@@ -420,10 +435,10 @@
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 #textField4 {
+#navigationView1 #view-manager1 #view2 #container2 #textField4 {
 	 width: 209px;
 	 height: 40px;
-	 top: 118px;
+	 top: 96px;
 	 left: 162px;
 	
 	 position: absolute;
@@ -439,10 +454,10 @@
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 #label4 {
+#navigationView1 #view-manager1 #view2 #container2 #label4 {
 	 width: 81px;
 	 height: 20px;
-	 top: 128px;
+	 top: 106px;
 	 left: 76px;
 	
 	 position: absolute;
@@ -450,10 +465,10 @@
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 #textField5 {
+#navigationView1 #view-manager1 #view2 #container2 #textField5 {
 	 width: 209px;
 	 height: 40px;
-	 top: 165px;
+	 top: 143px;
 	 left: 162px;
 	
 	 position: absolute;
@@ -469,10 +484,10 @@
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 #label5 {
+#navigationView1 #view-manager1 #view2 #container2 #label5 {
 	 width: 71px;
 	 height: 20px;
-	 top: 175px;
+	 top: 153px;
 	 left: 86px;
 	
 	 position: absolute;
@@ -480,29 +495,10 @@
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 #textField6 {
-	 width: 209px;
-	 height: 40px;
-	 top: 218px;
-	 left: 162px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	
-	 border-top-style: none;
-	 border-bottom-style: none;
-	 border-left-style: none;
-	 border-right-style: none;
-	 
-}
-
-#navigationView1 #view-manager1 #view2 #body2 #container2 #label6 {
+#navigationView1 #view-manager1 #view2 #container2 #label6 {
 	 width: 134px;
 	 height: 20px;
-	 top: 228px;
+	 top: 206px;
 	 left: 23px;
 	
 	 position: absolute;
@@ -510,29 +506,10 @@
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 #textField7 {
-	 width: 209px;
-	 height: 40px;
-	 top: 262px;
-	 left: 162px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	
-	 border-top-style: none;
-	 border-bottom-style: none;
-	 border-left-style: none;
-	 border-right-style: none;
-	 
-}
-
-#navigationView1 #view-manager1 #view2 #body2 #container2 #label7 {
+#navigationView1 #view-manager1 #view2 #container2 #label7 {
 	 width: 40px;
 	 height: 20px;
-	 top: 272px;
+	 top: 250px;
 	 left: 117px;
 	
 	 position: absolute;
@@ -540,29 +517,10 @@
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 #textField8 {
-	 width: 209px;
-	 height: 40px;
-	 top: 312px;
-	 left: 162px;
-	
-	 position: absolute;
-	 font-size: 17px;
-	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
-	
-	 border-top-style: none;
-	 border-bottom-style: none;
-	 border-left-style: none;
-	 border-right-style: none;
-	 
-}
-
-#navigationView1 #view-manager1 #view2 #body2 #container2 #label8 {
+#navigationView1 #view-manager1 #view2 #container2 #label8 {
 	 width: 47px;
 	 height: 20px;
-	 top: 322px;
+	 top: 300px;
 	 left: 110px;
 	
 	 position: absolute;
@@ -570,49 +528,110 @@
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 #label9 {
-	 width: 39px;
+#navigationView1 #view-manager1 #view2 #container2 #label9 {
+	 width: 62px;
 	 height: 20px;
-	 top: 418px;
-	 left: 117px;
+	 top: 396px;
+	 left: 94px;
 	
 	 position: absolute;
 	 font-size: 17px;
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 #radioGroup1 {
+#navigationView1 #view-manager1 #view2 #container2 #radioGroup1 {
 	 width: 209px;
 	 height: 44px;
-	 top: 406px;
+	 top: 384px;
 	 left: 161px;
 	
 	 position: absolute;
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 #label11 {
-	 width: 39px;
+#navigationView1 #view-manager1 #view2 #container2 #radioGroup1 .waf-radio {
+	 border-top-style: dashed;
+	 border-bottom-style: dashed;
+	 border-left-style: dashed;
+	 border-right-style: dashed;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #container2 #label12 {
+	 width: 26px;
 	 height: 20px;
-	 top: 476px;
-	 left: 120px;
+	 top: 371px;
+	 left: 132px;
 	
 	 position: absolute;
 	 font-size: 17px;
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 #select1 {
-	 width: 209px;
-	 height: 44px;
-	 top: 464px;
-	 left: 164px;
+#navigationView1 #view-manager1 #view2 #container2 #richText3 {
+	 width: 187px;
+	 height: 26px;
+	 top: 14px;
+	 left: 81px;
 	
 	 position: absolute;
+	 font-size: 17px;
+	 font-weight: normal;
+	 color: rgb(127, 127, 127);
+	 text-align: right;
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 #radioGroup1 .waf-radio {
+#navigationView1 #view-manager1 #view2 #container2 #richText4 {
+	 width: 85px;
+	 height: 29px;
+	 top: 12px;
+	 left: 271px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 text-align: center;
+	 text-decoration: underline;
+	 color: rgb(0, 95, 191);
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #container2 #label10 {
+	 width: 26px;
+	 height: 20px;
+	 top: 349px;
+	 left: 132px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #signUperrDiv {
+	 width: 211px;
+	 height: 32px;
+	 top: 586px;
+	 left: 430px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 text-align: center;
+	 color: rgb(191, 0, 0);
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #container2 #signUpConfirmPwField {
+	 width: 209px;
+	 height: 40px;
+	 top: 196px;
+	 left: 162px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	
 	 border-top-style: none;
 	 border-bottom-style: none;
 	 border-left-style: none;
@@ -620,10 +639,29 @@
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 #textField9 {
+#navigationView1 #view-manager1 #view2 #container2 #signUpPhoneNumField {
 	 width: 209px;
 	 height: 40px;
-	 top: 361px;
+	 top: 290px;
+	 left: 162px;
+	
+	 position: absolute;
+	 font-size: 17px;
+	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	
+	 border-top-style: none;
+	 border-bottom-style: none;
+	 border-left-style: none;
+	 border-right-style: none;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #container2 #signUpFaxNumField {
+	 width: 209px;
+	 height: 40px;
+	 top: 339px;
 	 left: 163px;
 	
 	 position: absolute;
@@ -639,10 +677,10 @@
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 #label12 {
+#navigationView1 #view-manager1 #view2 #container2 #label14 {
 	 width: 26px;
 	 height: 20px;
-	 top: 371px;
+	 top: 349px;
 	 left: 132px;
 	
 	 position: absolute;
@@ -650,54 +688,94 @@
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 #richText3 {
-	 width: 187px;
-	 height: 26px;
-	 top: 12px;
-	 left: 81px;
+#navigationView1 #view-manager1 #view2 #container2 #signUpEmailNumField {
+	 width: 209px;
+	 height: 40px;
+	 top: 240px;
+	 left: 162px;
 	
 	 position: absolute;
 	 font-size: 17px;
-	 font-weight: normal;
-	 color: rgb(127, 127, 127);
-	 text-align: right;
-	 
-}
-
-#navigationView1 #view-manager1 #view2 #body2 #container2 #richText4 {
-	 width: 85px;
-	 height: 29px;
-	 top: 10px;
-	 left: 271px;
+	 -webkit-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 -moz-box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
+	 box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px inset;
 	
-	 position: absolute;
-	 font-size: 17px;
-	 text-align: center;
-	 text-decoration: underline;
-	 color: rgb(0, 95, 191);
+	 border-top-style: none;
+	 border-bottom-style: none;
+	 border-left-style: none;
+	 border-right-style: none;
 	 
 }
 
-#navigationView1 #view-manager1 #view2 #body2 #container2 #label10 {
+#navigationView1 #view-manager1 #view2 #container2 #label13 {
 	 width: 19px;
 	 height: 15px;
-	 top: 373.5px;
+	 top: 351.5px;
 	 left: 139px;
 	
 	 position: absolute;
 	 
 }
 
-#navigationView1 #view-manager1 #view1 #body1 #container1 #errorDiv1 {
-	 width: 268px;
-	 height: 29px;
-	 top: 154px;
-	 left: 51px;
+#navigationView1 #view-manager1 #view2 #signUpButton {
+	 width: 209px;
+	 height: 44px;
+	 top: 623px;
+	 left: 432px;
+	
+	 font-size: 17px;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #signUpButton {
+	 width: 209px;
+	 height: 44px;
+	 top: 623px;
+	 left: 432px;
+	
+	 font-size: 17px;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #container2 #label11 {
+	 width: 84px;
+	 height: 20px;
+	 top: 454px;
+	 left: 75px;
 	
 	 position: absolute;
-	 text-align: center;
 	 font-size: 17px;
-	 color: rgb(191, 0, 0);
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #container2 #select1 {
+	 width: 209px;
+	 height: 44px;
+	 top: 442px;
+	 left: 164px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #container2 #select1 {
+	 width: 209px;
+	 height: 44px;
+	 top: 442px;
+	 left: 164px;
+	
+	 position: absolute;
+	 
+}
+
+#navigationView1 #view-manager1 #view2 #container2 #label11 {
+	 width: 84px;
+	 height: 20px;
+	 top: 454px;
+	 left: 75px;
+	
+	 position: absolute;
+	 font-size: 17px;
 	 
 }
 
